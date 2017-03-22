@@ -1,9 +1,9 @@
-﻿Log file open, 03/22/17 01:03:58
+﻿Log file open, 03/22/17 11:14:40
 LogInit:Display: Running engine for game: VirtualWorldScroller
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-1190791860) SRandInit(-1190791860).
+LogInit:Display: RandInit(1368413806) SRandInit(1368413806).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.086304
+LogStats: Stats thread started at 10.830563
 LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
 LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
 LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
@@ -144,263 +144,588 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.14/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.03.22-07.03.58:740][  0]LogInit: Selected Device Profile: [Windows]
-[2017.03.22-07.03.58:740][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.03.22-07.03.58:756][  0]LogInit: Computer: DESKTOP-DKRONP8
-[2017.03.22-07.03.58:756][  0]LogInit: User: AjaySathish
-[2017.03.22-07.03.58:756][  0]LogInit: CPU Page size=65536, Cores=4
-[2017.03.22-07.03.58:756][  0]LogInit: High frequency timer resolution =2.531250 MHz
-[2017.03.22-07.03.58:756][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2017.03.22-07.03.58:756][  0]LogMemory: Platform Memory Stats for Windows
-[2017.03.22-07.03.58:756][  0]LogMemory: Process Physical Memory: 265.43 MB used, 265.43 MB peak
-[2017.03.22-07.03.58:756][  0]LogMemory: Process Virtual Memory: 263.05 MB used, 263.05 MB peak
-[2017.03.22-07.03.58:756][  0]LogMemory: Physical Memory: 7764.61 MB used,  8483.16 MB free, 16247.77 MB total
-[2017.03.22-07.03.58:756][  0]LogMemory: Virtual Memory: 662.60 MB used,  8483.16 MB free, 134217728.00 MB total
-[2017.03.22-07.03.58:785][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2017.03.22-07.03.59:561][  0]LogD3D11RHI: D3D11 adapters:
-[2017.03.22-07.03.59:594][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970M' (Feature Level 11_0)
-[2017.03.22-07.03.59:594][  0]LogD3D11RHI:       3040/0/8123 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.03.22-07.03.59:602][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
-[2017.03.22-07.03.59:602][  0]LogD3D11RHI:       128/0/8123 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2017.03.22-07.03.59:603][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.03.22-07.03.59:603][  0]LogD3D11RHI:       0/0/8123 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.03.22-07.03.59:603][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.03.22-07.03.59:608][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.03.22-07.03.59:608][  0]LogD3D11RHI:     GPU DeviceId: 0x13d8 (for the marketing name, search the web for "GPU Device Id")
-[2017.03.22-07.03.59:608][  0]LogWindows: EnumDisplayDevices:
-[2017.03.22-07.03.59:608][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
-[2017.03.22-07.03.59:609][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2017.03.22-07.03.59:609][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2017.03.22-07.03.59:609][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2017.03.22-07.03.59:609][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970M
-[2017.03.22-07.03.59:609][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2017.03.22-07.03.59:609][  0]LogD3D11RHI:      Driver Date: Unknown
-[2017.03.22-07.03.59:609][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.03.22-07.03.59:625][  0]LogD3D11RHI: Async texture creation enabled
-[2017.03.22-07.03.59:638][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.03.22-07.03.59:638][  0]LogShaderCompilers: Guid format shader working directory is -34 characters bigger than the processId version (../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Intermediate/Shaders/WorkingDirectory/10052/).
-[2017.03.22-07.03.59:639][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Ajay Sathish/AppData/Local/Temp/UnrealShaderWorkingDir/8C07B74442FFE191F36D5C93D4F26A32/'.
-[2017.03.22-07.03.59:639][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.03.22-07.04.00:875][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.03.22-07.04.00:953][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.03.22-07.04.01:030][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.03.22-07.04.01:109][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.03.22-07.04.01:185][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.03.22-07.04.01:261][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.03.22-07.04.01:339][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.03.22-07.04.01:416][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.03.22-07.04.01:480][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.03.22-07.04.01:555][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.03.22-07.04.01:630][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.03.22-07.04.01:705][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.03.22-07.04.01:780][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.03.22-07.04.01:855][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.03.22-07.04.01:930][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.03.22-07.04.02:082][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.03.22-07.04.02:082][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.03.22-07.04.02:139][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.03.22-07.04.02:257][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.03.22-07.04.02:308][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.03.22-07.04.02:386][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.03.22-07.04.02:461][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.03.22-07.04.02:534][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.03.22-07.04.02:609][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.03.22-07.04.02:609][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.03.22-07.04.03:222][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.03.22-07.04.03:279][  0]LogDerivedDataCache: Loaded boot cache 0.06s 50MB C:/Users/Ajay Sathish/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
-[2017.03.22-07.04.03:279][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Ajay Sathish/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
-[2017.03.22-07.04.03:279][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.03.22-07.04.03:279][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.03.22-07.04.03:279][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.03.22-07.04.03:279][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.03.22-07.04.03:299][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.03.22-07.04.03:312][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Ajay Sathish/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.03.22-07.04.03:543][  0]LogInit: Selected Device Profile: [Windows]
-[2017.03.22-07.04.03:546][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.03.22-07.04.03:824][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.03.22-07.04.03:887][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.03.22-07.04.03:956][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.03.22-07.04.03:956][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.03.22-07.04.03:956][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.03.22-07.04.04:569][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: virtualworldscroller, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3652782691
-[2017.03.22-07.04.04:639][  0]LogAssetRegistry: FAssetRegistry took 0.0214 seconds to start up
-[2017.03.22-07.04.04:727][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.045152 seconds
-[2017.03.22-07.04.04:734][  0]LogUObjectArray: 31947 objects as part of root set at end of initial load.
-[2017.03.22-07.04.04:734][  0]LogUObjectAllocator: 6936064 out of 0 bytes used by permanent object pool.
-[2017.03.22-07.04.04:734][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.03.22-07.04.04:839][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.03.22-07.04.06:024][  0]LogSlate: Using Freetype 2.6.0
-[2017.03.22-07.04.06:025][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.03.22-07.04.06:025][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.03.22-07.04.07:060][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
-[2017.03.22-07.04.07:102][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.03.22-07.04.07:156][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.03.22-07.04.07:566][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.03.22-07.04.08:115][  0]SourceControl: Info Source control is disabled
-[2017.03.22-07.04.08:176][  0]SourceControl: Info Source control is disabled
-[2017.03.22-07.04.08:244][  0]SourceControl: Info Source control is disabled
-[2017.03.22-07.04.08:312][  0]SourceControl: Info Source control is disabled
-[2017.03.22-07.04.10:200][  0]LogEngine: Initializing Engine...
-[2017.03.22-07.04.10:201][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.03.22-07.04.10:520][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.03.22-07.04.10:533][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.03.22-07.04.10:547][  0]LogInit: FAudioDevice initialized.
-[2017.03.22-07.04.10:573][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/Ajay Sathish/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
-[2017.03.22-07.04.10:578][  0]LogInit: Texture streaming: Enabled
-[2017.03.22-07.04.10:848][  0]LogInit: Transaction tracking system initialized
-[2017.03.22-07.04.11:355][  0]BlueprintLog: New page: Editor Load
-[2017.03.22-07.04.12:644][  0]LocalizationService: Info Localization service is disabled
-[2017.03.22-07.04.13:598][  0]LogConsoleResponse:Display: 
-[2017.03.22-07.04.13:816][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.03.22-07.04.13:816][  0]LogCook:Display: Mobile HDR setting 1
-[2017.03.22-07.04.14:623][  0]LogFileCache: Scanning file cache for directory 'C:/Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/' took 0.02s
-[2017.03.22-07.04.15:196][  0]SourceControl: Info Source control is disabled
-[2017.03.22-07.04.15:196][  0]Cmd: MAP LOAD FILE="../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Map/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.03.22-07.04.15:196][  0]LightingResults: New page: Lighting Build
-[2017.03.22-07.04.15:255][  0]MapCheck: New page: Map Check
-[2017.03.22-07.04.15:255][  0]LightingResults: New page: Lighting Build
-[2017.03.22-07.04.15:523][  0]LogTexture:Display: Building textures: TriggerBox_ (BGRA8)
-[2017.03.22-07.04.15:523][  0]LogTexture:Display: Building textures: rotating-wall (BGRA8)
-[2017.03.22-07.04.15:531][  0]LogTexture:Display: Building textures: spikes (BGRA8)
-[2017.03.22-07.04.15:538][  0]LogTexture:Display: Building textures: SpriteSheet (AutoDXT)
-[2017.03.22-07.04.15:547][  0]LogAIModule: Creating AISystem for world Main
-[2017.03.22-07.04.15:590][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.03.22-07.04.15:591][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.03.22-07.04.15:634][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 43.755ms to complete.
-[2017.03.22-07.04.15:634][  0]LogFileHelpers: Loading map 'Main' took 0.438
-[2017.03.22-07.04.15:735][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.03.22-07.04.15:835][  0]LogCollectionManager: Loaded 0 collections in 0.001793 seconds
-[2017.03.22-07.04.15:938][  0]LogFileCache: Scanning file cache for directory 'C:/Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Saved/Collections/' took 0.01s
-[2017.03.22-07.04.15:938][  0]LogFileCache: Scanning file cache for directory 'C:/Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Developers/AjaySathish/Collections/' took 0.01s
-[2017.03.22-07.04.15:938][  0]LogFileCache: Scanning file cache for directory 'C:/Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Collections/' took 0.01s
-[2017.03.22-07.04.15:938][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2017.03.22-07.04.15:948][  0]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 2204 classes and 434 folders.
-[2017.03.22-07.04.16:008][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.03.22-07.04.16:008][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.03.22-07.04.16:008][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0006 seconds. Added 13 classes and 0 folders.
-[2017.03.22-07.04.16:100][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2017.03.22-07.04.16:147][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2017.03.22-07.04.16:206][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2017.03.22-07.04.16:297][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.03.22-07.04.16:304][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.03.22-07.04.16:388][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2017.03.22-07.04.16:389][  0]LogLoad: (Engine Initialization) Total time: 19.55 seconds
-[2017.03.22-07.04.16:389][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.25 seconds
-[2017.03.22-07.04.16:389][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.03.22-07.04.16:389][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.03.22-07.04.16:407][  0]LogOcInput: OculusInput pre-init called
-[2017.03.22-07.04.16:427][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.03.22-07.04.16:623][  0]LogRenderer: Reallocating scene render targets to support 1140x556 NumSamples 1 (Frame:2).
-[2017.03.22-07.04.16:751][  1]LogAssetRegistry: Asset discovery search completed in 12.1328 seconds
-[2017.03.22-07.04.16:751][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2017.03.22-07.04.16:751][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000019 seconds (updated 0 objects)
-[2017.03.22-07.05.53:280][723]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 111 classes and 0 folders.
-[2017.03.22-07.05.55:877][818]LogRenderer: Reallocating scene render targets to support 1144x792 NumSamples 1 (Frame:5459).
-[2017.03.22-07.06.59:316][421]BlueprintLog: New page: Compile Wall_Rotation
-[2017.03.22-07.07.00:171][458]LogSavePackage: Save=11.02ms
-[2017.03.22-07.07.00:171][458]LogSavePackage: Moving '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Saved/Wall_RotationF05FFD814D7B928F2716EA97EC633A62.tmp' to '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Wall_Rotation.uasset'
-[2017.03.22-07.07.00:176][458]LogSavePackage:Display: Finished SavePackage ../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Wall_Rotation.uasset
-[2017.03.22-07.08.22:988][ 54]LogLinker: Can't find file '/Game/2DSideScrollerBP/Blueprints/Test'
-[2017.03.22-07.08.22:988][ 54]LogLinker: Can't find file '/Game/2DSideScrollerBP/Blueprints/Test'
-[2017.03.22-07.08.22:990][ 54]LogBlueprint:Warning: [Wall_Rotation] 'DesiredRotation' variable not found. Base class was probably changed.
-[2017.03.22-07.08.22:990][ 54]LogBlueprint:Warning: [Wall_Rotation] 'DesiredRotation' variable not found. Base class was probably changed.
-[2017.03.22-07.08.30:385][492]BlueprintLog: New page: Compile Wall_Rotation
-[2017.03.22-07.08.30:406][492]LogBlueprint:Warning: [Compiler Wall_Rotation] Warning Could not find a variable named "DesiredRotation" in 'Wall_Rotation_C'.
-Make sure 'Wall_Rotation_C' has been compiled for  K2Node_VariableSet_670
-[2017.03.22-07.08.30:411][492]LogBlueprint:Error: [Compiler Wall_Rotation] Error The property associated with  DesiredRotation  could not be found
-[2017.03.22-07.08.30:482][492]LogTexture:Display: Building textures: BadBlueprintSprite (BGRA8)
-[2017.03.22-07.08.30:626][492]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "DesiredRotation" in 'Wall_Rotation_C'.
-Make sure 'Wall_Rotation_C' has been compiled for  K2Node_VariableSet_670
-[2017.03.22-07.08.30:626][492]BlueprintEditorCompileResults:Error: Error The property associated with  DesiredRotation  could not be found
-[2017.03.22-07.08.30:655][492]LogBlueprint:Warning: [Compiler Wall_Rotation] Warning [0273.80] Compile of Wall_Rotation failed. 1 Fatal Issue(s) 1 Warning(s) [in 252 ms] (/Game/Blueprint/Wall_Rotation.Wall_Rotation)
-[2017.03.22-07.09.20:028][884]LogEditorTransaction: Undo Promote To Variable
-[2017.03.22-07.10.04:497][137]BlueprintLog: New page: Compile Wall_Rotation
-[2017.03.22-07.10.05:370][176]LogSavePackage: Save=13.91ms
-[2017.03.22-07.10.05:370][176]LogSavePackage: Moving '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Saved/Wall_Rotation9EF37EB14DBEC5013EE8B2BC4DD70D7B.tmp' to '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Wall_Rotation.uasset'
-[2017.03.22-07.10.05:375][176]LogSavePackage:Display: Finished SavePackage ../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Wall_Rotation.uasset
-[2017.03.22-07.10.31:106][633]LogSavePackage: Save=13.50ms
-[2017.03.22-07.10.31:106][633]LogSavePackage: Moving '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Saved/Wall_Rotation4EE9798F4F5347C44C155596499A6B3F.tmp' to '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Wall_Rotation.uasset'
-[2017.03.22-07.10.31:108][633]LogSavePackage:Display: Finished SavePackage ../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Wall_Rotation.uasset
-[2017.03.22-07.11.24:226][794]LogTemp: Repeting last play command: Selected Viewport
-[2017.03.22-07.11.24:249][794]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2017.03.22-07.11.24:249][794]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.03.22-07.11.24:250][794]PIE: New page: PIE session: Main (Mar 21, 2017, 7:11:24 PM)
-[2017.03.22-07.11.24:250][794]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
-[2017.03.22-07.11.24:262][794]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011906s)
-[2017.03.22-07.11.24:262][794]LogAIModule: Creating AISystem for world Main
-[2017.03.22-07.11.24:262][794]LogPlayLevel: PIE: World Init took: (0.000536s)
-[2017.03.22-07.11.24:262][794]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.012625s)
-[2017.03.22-07.11.24:287][794]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.03.22-07.11.24:297][794]LogInit: FAudioDevice initialized.
-[2017.03.22-07.11.24:398][794]LogTexture:Display: Building textures: Player (AutoDXT)
-[2017.03.22-07.11.24:418][794]LogLoad: Game class is 'GameController_BP_C'
-[2017.03.22-07.11.24:432][794]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2017.03.22-01.11.24
-[2017.03.22-07.11.24:452][794]LogWorld: Bringing up level for play took: 0.032457
-[2017.03.22-07.11.24:580][794]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
-[2017.03.22-07.11.24:599][794]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Main 0.03
-[2017.03.22-07.11.24:599][794]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2017.03.22-07.11.35:217][424]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2017.03.22-07.11.35:277][424]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2017.03.22-07.14.27:784][706]LogSavePackage: Save=116.11ms
-[2017.03.22-07.14.27:784][706]LogSavePackage: Moving '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Saved/Main_Auto1997D99C14C132EEBE337F48F13473031.tmp' to '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Saved/Autosaves/Game/Map/Main_Auto1.umap'
-[2017.03.22-07.14.27:786][706]LogSavePackage:Display: Finished SavePackage ../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Saved/Autosaves/Game/Map/Main_Auto1.umap
-[2017.03.22-07.14.27:789][706]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/Main' took 0.149
-[2017.03.22-07.14.27:789][706]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.149
-[2017.03.22-07.19.27:018][389]LogTemp: Repeting last play command: Selected Viewport
-[2017.03.22-07.19.27:035][389]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2017.03.22-07.19.27:035][389]BlueprintLog: New page: Pre-Play auto-recompile
-[2017.03.22-07.19.27:035][389]LogPlayLevel: [PlayLevel] Compiling Player_BP before play...
-[2017.03.22-07.19.27:181][389]LogPlayLevel: PlayLevel: Blueprint regeneration took 145 ms (1 blueprints)
-[2017.03.22-07.19.27:181][389]PIE: New page: PIE session: Main (Mar 21, 2017, 7:19:27 PM)
-[2017.03.22-07.19.27:181][389]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
-[2017.03.22-07.19.27:183][389]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001878s)
-[2017.03.22-07.19.27:183][389]LogAIModule: Creating AISystem for world Main
-[2017.03.22-07.19.27:183][389]LogPlayLevel: PIE: World Init took: (0.000528s)
-[2017.03.22-07.19.27:183][389]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.002582s)
-[2017.03.22-07.19.27:208][389]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.03.22-07.19.27:218][389]LogInit: FAudioDevice initialized.
-[2017.03.22-07.19.27:250][389]LogLoad: Game class is 'GameController_BP_C'
-[2017.03.22-07.19.27:254][389]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2017.03.22-01.19.27
-[2017.03.22-07.19.27:255][389]LogWorld: Bringing up level for play took: 0.003760
-[2017.03.22-07.19.27:257][389]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Main 0.688
-[2017.03.22-07.19.27:257][389]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2017.03.22-07.19.28:991][478]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2017.03.22-07.19.29:095][478]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2017.03.22-07.19.34:661][759]BlueprintLog: New page: Compile Player_BP
-[2017.03.22-07.19.35:946][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Player_BP" FILE="../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Player_BP.uasset" SILENT=true
-[2017.03.22-07.19.36:003][803]LogSavePackage: Save=46.26ms
-[2017.03.22-07.19.36:003][803]LogSavePackage: Moving '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Saved/Player_BP59000F72408A226C3924DB9320613FE7.tmp' to '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Player_BP.uasset'
-[2017.03.22-07.19.36:008][803]LogSavePackage:Display: Finished SavePackage ../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Player_BP.uasset
-[2017.03.22-07.19.37:449][866]LogTemp: Repeting last play command: Selected Viewport
-[2017.03.22-07.19.37:465][866]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2017.03.22-07.19.37:465][866]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.03.22-07.19.37:465][866]PIE: New page: PIE session: Main (Mar 21, 2017, 7:19:37 PM)
-[2017.03.22-07.19.37:465][866]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
-[2017.03.22-07.19.37:467][866]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001950s)
-[2017.03.22-07.19.37:467][866]LogAIModule: Creating AISystem for world Main
-[2017.03.22-07.19.37:468][866]LogPlayLevel: PIE: World Init took: (0.000516s)
-[2017.03.22-07.19.37:468][866]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.002636s)
-[2017.03.22-07.19.37:488][866]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.03.22-07.19.37:498][866]LogInit: FAudioDevice initialized.
-[2017.03.22-07.19.37:532][866]LogLoad: Game class is 'GameController_BP_C'
-[2017.03.22-07.19.37:536][866]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2017.03.22-01.19.37
-[2017.03.22-07.19.37:537][866]LogWorld: Bringing up level for play took: 0.003845
-[2017.03.22-07.19.37:539][866]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Main 0.97
-[2017.03.22-07.19.37:539][866]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2017.03.22-07.19.39:382][967]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2017.03.22-07.19.39:457][967]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
-[2017.03.22-07.19.41:919][ 84]Cmd: TRANSACTION UNDO
-[2017.03.22-07.19.41:932][ 84]LogEditorTransaction: Undo Modify Component(s)
-[2017.03.22-07.19.42:533][106]Cmd: TRANSACTION UNDO
-[2017.03.22-07.19.42:534][106]LogEditorTransaction: Undo Modify Component(s)
-[2017.03.22-07.19.43:067][122]Cmd: TRANSACTION UNDO
-[2017.03.22-07.19.43:067][122]LogEditorTransaction: Undo Move Actors
-[2017.03.22-07.19.43:868][145]Cmd: TRANSACTION UNDO
-[2017.03.22-07.19.43:868][145]LogEditorTransaction: Undo Move Actors
-[2017.03.22-07.19.44:335][159]Cmd: TRANSACTION UNDO
-[2017.03.22-07.19.44:335][159]LogEditorTransaction: Undo Move Actors
-[2017.03.22-07.19.44:769][172]Cmd: TRANSACTION UNDO
-[2017.03.22-07.19.44:769][172]LogEditorTransaction: Undo Move Actors
-[2017.03.22-07.19.45:036][180]Cmd: TRANSACTION UNDO
-[2017.03.22-07.19.45:036][180]LogEditorTransaction: Undo Move Actors
-[2017.03.22-07.19.47:087][232]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Player_BP" FILE="../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Player_BP.uasset" SILENT=true
+[2017.03.22-17.14.42:153][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.22-17.14.42:153][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.22-17.14.42:358][  0]LogInit: Computer: DESKTOP-DKRONP8
+[2017.03.22-17.14.42:358][  0]LogInit: User: AjaySathish
+[2017.03.22-17.14.42:358][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.03.22-17.14.42:358][  0]LogInit: High frequency timer resolution =2.531250 MHz
+[2017.03.22-17.14.42:359][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.03.22-17.14.42:419][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.22-17.14.42:419][  0]LogMemory: Process Physical Memory: 265.36 MB used, 265.36 MB peak
+[2017.03.22-17.14.42:419][  0]LogMemory: Process Virtual Memory: 262.86 MB used, 262.86 MB peak
+[2017.03.22-17.14.42:419][  0]LogMemory: Physical Memory: 7896.17 MB used,  8351.59 MB free, 16247.77 MB total
+[2017.03.22-17.14.42:419][  0]LogMemory: Virtual Memory: 662.60 MB used,  8351.59 MB free, 134217728.00 MB total
+[2017.03.22-17.14.45:931][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.03.22-17.14.54:339][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.22-17.14.54:593][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970M' (Feature Level 11_0)
+[2017.03.22-17.14.54:593][  0]LogD3D11RHI:       3040/0/8123 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.03.22-17.14.54:638][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.03.22-17.14.54:638][  0]LogD3D11RHI:       128/0/8123 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.03.22-17.14.54:703][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.03.22-17.14.54:703][  0]LogD3D11RHI:       0/0/8123 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.03.22-17.14.54:703][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.03.22-17.14.54:708][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.22-17.14.54:708][  0]LogD3D11RHI:     GPU DeviceId: 0x13d8 (for the marketing name, search the web for "GPU Device Id")
+[2017.03.22-17.14.54:708][  0]LogWindows: EnumDisplayDevices:
+[2017.03.22-17.14.54:708][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2017.03.22-17.14.54:708][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.03.22-17.14.54:709][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.03.22-17.14.54:709][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.03.22-17.14.54:709][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970M
+[2017.03.22-17.14.54:709][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.03.22-17.14.54:709][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.03.22-17.14.54:709][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.03.22-17.14.54:730][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.22-17.14.55:117][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 3)
+[2017.03.22-17.14.55:237][  0]LogShaderCompilers: Guid format shader working directory is -34 characters bigger than the processId version (../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Intermediate/Shaders/WorkingDirectory/11872/).
+[2017.03.22-17.14.55:249][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Ajay Sathish/AppData/Local/Temp/UnrealShaderWorkingDir/19F6A90B4A653F48162FD7ACD65C06C7/'.
+[2017.03.22-17.14.55:249][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.22-17.15.02:620][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.03.22-17.15.02:704][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.03.22-17.15.02:782][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.03.22-17.15.02:861][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.03.22-17.15.02:977][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.03.22-17.15.03:054][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.22-17.15.03:132][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.22-17.15.03:212][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.22-17.15.03:277][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.22-17.15.03:374][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.03.22-17.15.03:461][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.03.22-17.15.03:536][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.03.22-17.15.03:611][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.03.22-17.15.03:689][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.03.22-17.15.03:766][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.03.22-17.15.03:938][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.03.22-17.15.03:938][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.03.22-17.15.04:009][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.03.22-17.15.04:226][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.03.22-17.15.04:280][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.03.22-17.15.04:358][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.03.22-17.15.04:499][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.03.22-17.15.04:587][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.03.22-17.15.04:698][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.03.22-17.15.04:698][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.22-17.15.06:177][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.22-17.15.06:806][  0]LogDerivedDataCache: Loaded boot cache 0.63s 50MB C:/Users/Ajay Sathish/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.03.22-17.15.06:806][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Ajay Sathish/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.03.22-17.15.06:806][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.22-17.15.06:806][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.22-17.15.06:806][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.22-17.15.06:806][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.22-17.15.06:859][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.22-17.15.06:889][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Ajay Sathish/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.22-17.15.15:657][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.22-17.15.15:842][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.03.22-17.15.16:723][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.03.22-17.15.16:931][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.03.22-17.15.17:035][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.03.22-17.15.17:035][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.03.22-17.15.17:035][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.22-17.15.21:152][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: virtualworldscroller, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3652782691
+[2017.03.22-17.15.21:386][  0]LogAssetRegistry: FAssetRegistry took 0.0220 seconds to start up
+[2017.03.22-17.15.21:599][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.084580 seconds
+[2017.03.22-17.15.21:637][  0]LogUObjectArray: 31947 objects as part of root set at end of initial load.
+[2017.03.22-17.15.21:637][  0]LogUObjectAllocator: 6936072 out of 0 bytes used by permanent object pool.
+[2017.03.22-17.15.21:637][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.22-17.15.21:773][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.03.22-17.15.25:713][  0]LogSlate: Using Freetype 2.6.0
+[2017.03.22-17.15.25:762][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.22-17.15.25:762][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.22-17.15.56:040][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2017.03.22-17.15.56:198][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.03.22-17.15.56:282][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.03.22-17.15.57:744][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.03.22-17.15.58:791][  0]SourceControl: Info Source control is disabled
+[2017.03.22-17.15.59:218][  0]SourceControl: Info Source control is disabled
+[2017.03.22-17.15.59:375][  0]SourceControl: Info Source control is disabled
+[2017.03.22-17.15.59:492][  0]SourceControl: Info Source control is disabled
+[2017.03.22-17.16.03:570][  0]LogEngine: Initializing Engine...
+[2017.03.22-17.16.03:599][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.03.22-17.16.04:475][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.03.22-17.16.04:531][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.22-17.16.04:566][  0]LogInit: FAudioDevice initialized.
+[2017.03.22-17.16.04:640][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/Ajay Sathish/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.03.22-17.16.04:647][  0]LogInit: Texture streaming: Enabled
+[2017.03.22-17.16.05:143][  0]LogInit: Transaction tracking system initialized
+[2017.03.22-17.16.06:470][  0]BlueprintLog: New page: Editor Load
+[2017.03.22-17.16.09:894][  0]LocalizationService: Info Localization service is disabled
+[2017.03.22-17.16.11:932][  0]LogConsoleResponse:Display: 
+[2017.03.22-17.16.13:644][  0]LogFileCache: Scanning file cache for directory 'C:/Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/' took 0.03s
+[2017.03.22-17.16.13:644][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.03.22-17.16.13:644][  0]LogCook:Display: Mobile HDR setting 1
+[2017.03.22-17.16.16:620][  0]SourceControl: Info Source control is disabled
+[2017.03.22-17.16.16:630][  0]Cmd: MAP LOAD FILE="../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Map/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.22-17.16.16:640][  0]LightingResults: New page: Lighting Build
+[2017.03.22-17.16.16:752][  0]MapCheck: New page: Map Check
+[2017.03.22-17.16.16:752][  0]LightingResults: New page: Lighting Build
+[2017.03.22-17.16.17:721][  0]LogAIModule: Creating AISystem for world Main
+[2017.03.22-17.16.17:925][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.22-17.16.17:952][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.22-17.16.18:000][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 47.546ms to complete.
+[2017.03.22-17.16.18:000][  0]LogFileHelpers: Loading map 'Main' took 1.370
+[2017.03.22-17.16.18:860][  0]LogCollectionManager: Loaded 0 collections in 0.002191 seconds
+[2017.03.22-17.16.19:055][  0]LogFileCache: Scanning file cache for directory 'C:/Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Saved/Collections/' took 0.01s
+[2017.03.22-17.16.19:055][  0]LogFileCache: Scanning file cache for directory 'C:/Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Developers/AjaySathish/Collections/' took 0.01s
+[2017.03.22-17.16.19:055][  0]LogFileCache: Scanning file cache for directory 'C:/Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Collections/' took 0.01s
+[2017.03.22-17.16.19:055][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000167 seconds
+[2017.03.22-17.16.19:078][  0]LogContentBrowser: Native class hierarchy populated in 0.0144 seconds. Added 2204 classes and 434 folders.
+[2017.03.22-17.16.19:159][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.03.22-17.16.19:159][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.03.22-17.16.19:159][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0006 seconds. Added 13 classes and 0 folders.
+[2017.03.22-17.16.19:300][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.03.22-17.16.20:277][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.03.22-17.16.20:455][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.03.22-17.16.21:036][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.03.22-17.16.21:103][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.03.22-17.16.21:302][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.03.22-17.16.21:303][  0]LogLoad: (Engine Initialization) Total time: 130.31 seconds
+[2017.03.22-17.16.21:303][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.54 seconds
+[2017.03.22-17.16.21:314][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.03.22-17.16.21:314][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.03.22-17.16.21:672][  0]LogOcInput: OculusInput pre-init called
+[2017.03.22-17.16.21:743][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.03.22-17.16.22:327][  0]LogRenderer: Reallocating scene render targets to support 1140x556 NumSamples 1 (Frame:2).
+[2017.03.22-17.16.23:255][  3]LogAssetRegistry: Asset discovery search completed in 61.8906 seconds
+[2017.03.22-17.16.23:255][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.03.22-17.16.23:255][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000019 seconds (updated 0 objects)
+[2017.03.22-17.22.16:360][166]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 111 classes and 0 folders.
+[2017.03.22-17.23.26:363][921]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Player_BP" FILE="../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Player_BP.uasset" SILENT=true
+[2017.03.22-17.23.26:483][921]LogSavePackage: Save=49.03ms
+[2017.03.22-17.23.26:483][921]LogSavePackage: Moving '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Saved/Player_BP960062714E9F16BC9EC9EAACAED92151.tmp' to '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Player_BP.uasset'
+[2017.03.22-17.23.26:489][921]LogSavePackage:Display: Finished SavePackage ../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Player_BP.uasset
+[2017.03.22-17.23.27:626][989]BlueprintLog: New page: Compile Player_BP
+[2017.03.22-17.23.28:375][ 20]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Player_BP" FILE="../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Player_BP.uasset" SILENT=true
+[2017.03.22-17.23.28:439][ 20]LogSavePackage: Save=45.48ms
+[2017.03.22-17.23.28:439][ 20]LogSavePackage: Moving '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Saved/Player_BPB151003D4692394B3571AA9F7F28925C.tmp' to '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Player_BP.uasset'
+[2017.03.22-17.23.28:441][ 20]LogSavePackage:Display: Finished SavePackage ../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Player_BP.uasset
+[2017.03.22-17.23.30:214][125]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.22-17.23.30:233][125]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.22-17.23.30:233][125]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.22-17.23.30:266][125]PIE: New page: PIE session: Main (Mar 22, 2017, 5:23:30 AM)
+[2017.03.22-17.23.30:266][125]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2017.03.22-17.23.30:283][125]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016767s)
+[2017.03.22-17.23.30:283][125]LogAIModule: Creating AISystem for world Main
+[2017.03.22-17.23.30:284][125]LogPlayLevel: PIE: World Init took: (0.000533s)
+[2017.03.22-17.23.30:284][125]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.017491s)
+[2017.03.22-17.23.30:301][125]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.22-17.23.30:310][125]LogInit: FAudioDevice initialized.
+[2017.03.22-17.23.30:408][125]LogLoad: Game class is 'GameController_BP_C'
+[2017.03.22-17.23.30:412][125]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2017.03.22-11.23.30
+[2017.03.22-17.23.30:424][125]LogWorld: Bringing up level for play took: 0.013664
+[2017.03.22-17.23.30:518][125]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.03.22-17.23.30:555][125]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Main 0.573
+[2017.03.22-17.23.30:556][125]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.22-17.24.16:176][830]LogBlueprintUserMessages: [Main_C_2] Hello
+[2017.03.22-17.24.16:798][867]LogBlueprintUserMessages: [Enemy4] Hello
+[2017.03.22-17.24.20:305][ 72]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.22-17.24.20:391][ 72]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.22-17.24.24:103][293]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.22-17.24.24:119][293]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.22-17.24.24:119][293]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.22-17.24.24:120][293]PIE: New page: PIE session: Main (Mar 22, 2017, 5:24:24 AM)
+[2017.03.22-17.24.24:120][293]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2017.03.22-17.24.24:122][293]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001855s)
+[2017.03.22-17.24.24:122][293]LogAIModule: Creating AISystem for world Main
+[2017.03.22-17.24.24:122][293]LogPlayLevel: PIE: World Init took: (0.000503s)
+[2017.03.22-17.24.24:122][293]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.002523s)
+[2017.03.22-17.24.24:139][293]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.22-17.24.24:148][293]LogInit: FAudioDevice initialized.
+[2017.03.22-17.24.24:180][293]LogLoad: Game class is 'GameController_BP_C'
+[2017.03.22-17.24.24:184][293]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2017.03.22-11.24.24
+[2017.03.22-17.24.24:185][293]LogWorld: Bringing up level for play took: 0.003947
+[2017.03.22-17.24.24:187][293]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Main 0.205
+[2017.03.22-17.24.24:187][293]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.22-17.24.41:671][337]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.22-17.24.41:704][337]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.22-17.24.44:994][532]LogEditorViewport: Clicking on Actor (LMB): Wall_Movement_C (Wall_Movement)
+[2017.03.22-19.21.56:663][531]LogSavePackage: Save=201.34ms
+[2017.03.22-19.21.56:663][531]LogSavePackage: Moving '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Saved/Main_Auto1EF24675D4BD3EEF5037C78884E59415B.tmp' to '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Saved/Autosaves/Game/Map/Main_Auto1.umap'
+[2017.03.22-19.21.56:666][531]LogSavePackage:Display: Finished SavePackage ../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Saved/Autosaves/Game/Map/Main_Auto1.umap
+[2017.03.22-19.21.56:669][531]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/Main' took 0.272
+[2017.03.22-19.21.56:669][531]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.272
+[2017.03.22-19.21.56:674][531]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/Wall_Movement] ([1] browsable assets)...
+[2017.03.22-19.21.56:674][531]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/Wall_Movement]
+[2017.03.22-19.21.56:719][531]LogSavePackage: Save=29.22ms
+[2017.03.22-19.21.56:719][531]LogSavePackage: Moving '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Saved/Wall_Movement_Auto19AA7AB344BDE014038C012A14DF3A8DD.tmp' to '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Saved/Autosaves/Game/Blueprint/Wall_Movement_Auto1.uasset'
+[2017.03.22-19.21.56:752][531]LogSavePackage:Display: Finished SavePackage ../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Saved/Autosaves/Game/Blueprint/Wall_Movement_Auto1.uasset
+[2017.03.22-19.21.56:752][531]LogFileHelpers: Auto-saving content packages took 0.081
+[2017.03.22-19.22.08:527][ 55]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (SpriteSheet_TileMap2)
+[2017.03.22-19.22.08:769][ 55]LogEditorViewport: Clicking on Component (LMB): PaperTileMapComponent (RenderComponent)
+[2017.03.22-19.23.03:582][452]BlueprintLog: New page: Compile Wall_Movement
+[2017.03.22-19.23.04:215][461]LogSavePackage: Save=18.70ms
+[2017.03.22-19.23.04:215][461]LogSavePackage: Moving '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Saved/Wall_MovementBA4328D54F51BE479E75D19855820A77.tmp' to '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Wall_Movement.uasset'
+[2017.03.22-19.23.04:221][461]LogSavePackage:Display: Finished SavePackage ../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Wall_Movement.uasset
+[2017.03.22-19.23.11:179][582]LogSavePackage: Save=18.73ms
+[2017.03.22-19.23.11:179][582]LogSavePackage: Moving '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Saved/Wall_Movement351BD7104F059F548E6A35AF7CCBB4E4.tmp' to '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Wall_Movement.uasset'
+[2017.03.22-19.23.11:181][582]LogSavePackage:Display: Finished SavePackage ../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Wall_Movement.uasset
+[2017.03.22-19.23.16:718][756]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2017.03.22-19.23.51:072][726]BlueprintLog: New page: Compile Main
+[2017.03.22-19.23.51:078][726]LogBlueprint:Error: [Compiler PersistentLevel.Main] Error This blueprint (self) is not a Wall_Movement_C, therefore ' self ' must have a connection.
+[2017.03.22-19.23.51:280][726]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Wall_Movement_C, therefore ' self ' must have a connection.
+[2017.03.22-19.23.51:318][726]LogBlueprint:Warning: [Compiler PersistentLevel.Main] Warning [7780.31] Compile of PersistentLevel.Main failed. 1 Fatal Issue(s) 0 Warning(s) [in 227 ms] (/Game/Map/Main.Main:PersistentLevel.Main)
+[2017.03.22-19.24.17:177][299]BlueprintLog: New page: Compile Main
+[2017.03.22-19.24.17:183][299]LogBlueprint:Error: [Compiler PersistentLevel.Main] Error The type of  Object  is undetermined.  Connect something to  K2Node_DynamicCast_0  to imply a specific type.
+[2017.03.22-19.24.17:199][299]LogBlueprint:Error: [Compiler PersistentLevel.Main] Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2017.03.22-19.24.17:364][299]BlueprintEditorCompileResults:Error: Error The type of  Object  is undetermined.  Connect something to  K2Node_DynamicCast_0  to imply a specific type.
+[2017.03.22-19.24.17:364][299]BlueprintEditorCompileResults:Error: Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2017.03.22-19.24.17:364][299]LogBlueprint:Warning: [Compiler PersistentLevel.Main] Warning [7806.37] Compile of PersistentLevel.Main failed. 2 Fatal Issue(s) 0 Warning(s) [in 187 ms] (/Game/Map/Main.Main:PersistentLevel.Main)
+[2017.03.22-19.24.52:640][205]BlueprintLog: New page: Compile Main
+[2017.03.22-19.24.52:646][205]LogBlueprint:Error: [Compiler PersistentLevel.Main] Error The type of  Object  is undetermined.  Connect something to  K2Node_DynamicCast_0  to imply a specific type.
+[2017.03.22-19.24.52:646][205]LogBlueprint:Error: [Compiler PersistentLevel.Main] Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2017.03.22-19.24.52:888][205]BlueprintEditorCompileResults:Error: Error The type of  Object  is undetermined.  Connect something to  K2Node_DynamicCast_0  to imply a specific type.
+[2017.03.22-19.24.52:888][205]BlueprintEditorCompileResults:Error: Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2017.03.22-19.24.52:889][205]LogBlueprint:Warning: [Compiler PersistentLevel.Main] Warning [7841.90] Compile of PersistentLevel.Main failed. 2 Fatal Issue(s) 0 Warning(s) [in 248 ms] (/Game/Map/Main.Main:PersistentLevel.Main)
+[2017.03.22-19.25.19:012][270]BlueprintLog: New page: Compile Player_BP
+[2017.03.22-19.25.43:966][284]BlueprintLog: New page: Compile Main
+[2017.03.22-19.31.57:608][319]LogSavePackage: Save=103.84ms
+[2017.03.22-19.31.57:608][319]LogSavePackage: Moving '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Saved/Main_Auto26EBD19ED433D45F6042267AA8AEE98D6.tmp' to '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Saved/Autosaves/Game/Map/Main_Auto2.umap'
+[2017.03.22-19.31.57:647][319]LogSavePackage:Display: Finished SavePackage ../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Saved/Autosaves/Game/Map/Main_Auto2.umap
+[2017.03.22-19.31.57:650][319]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/Main' took 0.180
+[2017.03.22-19.31.57:650][319]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.180
+[2017.03.22-19.41.16:907][624]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.22-19.41.16:941][624]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.22-19.41.16:941][624]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.22-19.41.16:941][624]PIE: New page: PIE session: Main (Mar 22, 2017, 7:41:16 AM)
+[2017.03.22-19.41.16:941][624]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2017.03.22-19.41.16:943][624]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001987s)
+[2017.03.22-19.41.16:944][624]LogAIModule: Creating AISystem for world Main
+[2017.03.22-19.41.16:944][624]LogPlayLevel: PIE: World Init took: (0.000649s)
+[2017.03.22-19.41.16:944][624]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.002821s)
+[2017.03.22-19.41.16:966][624]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.22-19.41.16:977][624]LogInit: FAudioDevice initialized.
+[2017.03.22-19.41.17:007][624]LogLoad: Game class is 'GameController_BP_C'
+[2017.03.22-19.41.17:012][624]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2017.03.22-13.41.17
+[2017.03.22-19.41.17:013][624]LogWorld: Bringing up level for play took: 0.004326
+[2017.03.22-19.41.17:015][624]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Main 1.039
+[2017.03.22-19.41.17:015][624]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.22-19.41.19:548][770]LogBlueprintUserMessages: [Enemy_43] Hello
+[2017.03.22-19.41.20:918][850]LogNet: Browse: /Game/Map/Main
+[2017.03.22-19.41.20:918][850]LogLoad: LoadMap: /Game/Map/Main
+[2017.03.22-19.41.20:948][850]Cmd: MEM
+[2017.03.22-19.41.21:629][850]LogMemory: Platform Memory Stats for Windows
+[2017.03.22-19.41.21:629][850]LogMemory: Process Physical Memory: 1578.31 MB used, 1578.31 MB peak
+[2017.03.22-19.41.21:629][850]LogMemory: Process Virtual Memory: 2155.09 MB used, 2155.09 MB peak
+[2017.03.22-19.41.21:629][850]LogMemory: Physical Memory: 8039.98 MB used,  8207.78 MB free, 16247.77 MB total
+[2017.03.22-19.41.21:629][850]LogMemory: Virtual Memory: 2933.41 MB used,  8207.78 MB free, 134217728.00 MB total
+[2017.03.22-19.41.21:629][850]LogMemory: 
+[2017.03.22-19.41.21:629][850]Allocator Stats for TBB: (not implemented)
+[2017.03.22-19.41.21:679][850]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2017.03.22-19.41.21:681][850]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002045s)
+[2017.03.22-19.41.21:681][850]LogAIModule: Creating AISystem for world Main
+[2017.03.22-19.41.21:681][850]LogPlayLevel: PIE: World Init took: (0.000519s)
+[2017.03.22-19.41.21:682][850]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.002770s)
+[2017.03.22-19.41.21:682][850]LogLoad: Game class is 'GameController_BP_C'
+[2017.03.22-19.41.21:685][850]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2017.03.22-13.41.21
+[2017.03.22-19.41.21:686][850]LogWorld: Bringing up level for play took: 0.003368
+[2017.03.22-19.41.21:688][850]LogLoad: Took 0.769870 seconds to LoadMap(/Game/Map/UEDPIE_0_Main)
+[2017.03.22-19.41.37:795][798]LogBlueprintUserMessages: [Main_C_1] Hello
+[2017.03.22-19.41.39:466][896]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.22-19.41.39:521][896]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.22-19.42.38:599][687]LogEditorViewport: Clicking on Actor (LMB): Wall_Movement_C (Wall_Movement)
+[2017.03.22-19.43.07:720][556]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.03.22-19.44.19:458][663]BlueprintLog: New page: Compile Main
+[2017.03.22-19.45.34:642][492]LogBlueprint:Error: [Compiler PersistentLevel.Main] Error The type of  Object  is undetermined.  Connect something to  K2Node_DynamicCast_16  to imply a specific type.
+[2017.03.22-19.45.34:642][492]LogBlueprint:Error: [Compiler PersistentLevel.Main] Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2017.03.22-19.45.34:779][492]LogBlueprint:Warning: [Compiler PersistentLevel.Main] Warning [9083.79] Compile of PersistentLevel.Main failed. 2 Fatal Issue(s) 0 Warning(s) [in 139 ms] (/Game/Map/Main.Main:PersistentLevel.Main)
+[2017.03.22-19.45.34:780][492]LogBlueprint:Warning: [Compiler PersistentLevel.Main] Warning [9083.79] Compile of PersistentLevel.Main failed. 2 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/Map/Main.Main:PersistentLevel.Main)
+[2017.03.22-19.45.34:780][492]LogBlueprint:Warning: [Compiler PersistentLevel.Main] Warning [9083.79] Compile of PersistentLevel.Main failed. 2 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/Map/Main.Main:PersistentLevel.Main)
+[2017.03.22-19.45.34:780][492]LogBlueprint:Warning: [Compiler PersistentLevel.Main] Warning [9083.79] Compile of PersistentLevel.Main failed. 2 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/Map/Main.Main:PersistentLevel.Main)
+[2017.03.22-19.45.34:782][492]LogBlueprint:Warning: [Compiler PersistentLevel.Main] Warning [9083.79] Compile of PersistentLevel.Main failed. 2 Fatal Issue(s) 4 Warning(s) [in 2 ms] (/Game/Map/Main.Main:PersistentLevel.Main)
+[2017.03.22-19.45.34:782][492]LogBlueprint:Warning: [Compiler PersistentLevel.Main] Warning [9083.79] Compile of PersistentLevel.Main failed. 2 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/Map/Main.Main:PersistentLevel.Main)
+[2017.03.22-19.45.34:810][492]LogSavePackage: Save=173.46ms
+[2017.03.22-19.45.34:810][492]LogSavePackage: Moving '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Saved/Main_Auto3CA92335444A9CF652CB112AA8B6702E8.tmp' to '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Saved/Autosaves/Game/Map/Main_Auto3.umap'
+[2017.03.22-19.45.34:812][492]LogSavePackage:Display: Finished SavePackage ../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Saved/Autosaves/Game/Map/Main_Auto3.umap
+[2017.03.22-19.45.34:814][492]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/Main' took 0.227
+[2017.03.22-19.45.34:814][492]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.227
+[2017.03.22-19.45.53:370][ 97]BlueprintLog: New page: Compile Main
+[2017.03.22-19.45.53:376][ 97]LogBlueprint:Warning: [Compiler PersistentLevel.Main] Warning 'Wall Movement' does not inherit from 'Paper Sprite Component' ( K2Node_DynamicCast_16  would always fail).
+[2017.03.22-19.45.53:376][ 97]LogBlueprint:Error: [Compiler PersistentLevel.Main] Error This blueprint (self) is not a Wall_Movement_C, therefore ' self ' must have a connection.
+[2017.03.22-19.45.53:376][ 97]LogBlueprint:Error: [Compiler PersistentLevel.Main] Error Variable node  K2Node_VariableGet_7  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.03.22-19.45.53:537][ 97]BlueprintEditorCompileResults:Warning: Warning 'Wall Movement' does not inherit from 'Paper Sprite Component' ( K2Node_DynamicCast_16  would always fail).
+[2017.03.22-19.45.53:537][ 97]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Wall_Movement_C, therefore ' self ' must have a connection.
+[2017.03.22-19.45.53:537][ 97]BlueprintEditorCompileResults:Error: Error Variable node  K2Node_VariableGet_7  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.03.22-19.45.53:537][ 97]LogBlueprint:Warning: [Compiler PersistentLevel.Main] Warning [9102.55] Compile of PersistentLevel.Main failed. 2 Fatal Issue(s) 1 Warning(s) [in 167 ms] (/Game/Map/Main.Main:PersistentLevel.Main)
+[2017.03.22-19.46.26:831][578]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.22-19.46.26:847][578]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.22-19.46.26:847][578]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.03.22-19.46.26:848][578]LogPlayLevel: [PlayLevel] Compiling Main before play...
+[2017.03.22-19.46.26:939][578]LogPlayLevel: PlayLevel: Blueprint regeneration took 91 ms (1 blueprints)
+[2017.03.22-19.46.26:939][578]PIE: New page: PIE session: Main (Mar 22, 2017, 7:46:26 AM)
+[2017.03.22-19.46.26:939][578]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2017.03.22-19.46.26:941][578]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001949s)
+[2017.03.22-19.46.26:941][578]LogAIModule: Creating AISystem for world Main
+[2017.03.22-19.46.26:941][578]LogPlayLevel: PIE: World Init took: (0.000567s)
+[2017.03.22-19.46.26:941][578]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.002685s)
+[2017.03.22-19.46.26:962][578]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.22-19.46.26:973][578]LogInit: FAudioDevice initialized.
+[2017.03.22-19.46.27:008][578]LogLoad: Game class is 'GameController_BP_C'
+[2017.03.22-19.46.27:012][578]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2017.03.22-13.46.27
+[2017.03.22-19.46.27:014][578]LogWorld: Bringing up level for play took: 0.005242
+[2017.03.22-19.46.27:016][578]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Main 1.04
+[2017.03.22-19.46.27:016][578]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.22-19.46.35:589][880]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.22-19.46.35:669][880]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.22-19.46.43:561][305]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Player_BP" FILE="../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Player_BP.uasset" SILENT=true
+[2017.03.22-19.46.43:620][305]LogSavePackage: Save=47.40ms
+[2017.03.22-19.46.43:620][305]LogSavePackage: Moving '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Saved/Player_BP606D53A948C6D04747F32ABBDE572283.tmp' to '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Player_BP.uasset'
+[2017.03.22-19.46.43:626][305]LogSavePackage:Display: Finished SavePackage ../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Player_BP.uasset
+[2017.03.22-19.46.45:780][401]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.22-19.46.45:797][401]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.22-19.46.45:797][401]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.03.22-19.46.45:797][401]LogPlayLevel: [PlayLevel] Compiling Player_BP before play...
+[2017.03.22-19.46.45:927][401]LogPlayLevel: PlayLevel: Blueprint regeneration took 129 ms (1 blueprints)
+[2017.03.22-19.46.45:927][401]PIE: New page: PIE session: Main (Mar 22, 2017, 7:46:45 AM)
+[2017.03.22-19.46.45:927][401]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2017.03.22-19.46.45:929][401]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002101s)
+[2017.03.22-19.46.45:930][401]LogAIModule: Creating AISystem for world Main
+[2017.03.22-19.46.45:930][401]LogPlayLevel: PIE: World Init took: (0.000540s)
+[2017.03.22-19.46.45:930][401]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.002816s)
+[2017.03.22-19.46.45:949][401]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.22-19.46.45:958][401]LogInit: FAudioDevice initialized.
+[2017.03.22-19.46.45:990][401]LogLoad: Game class is 'GameController_BP_C'
+[2017.03.22-19.46.45:995][401]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2017.03.22-13.46.45
+[2017.03.22-19.46.45:996][401]LogWorld: Bringing up level for play took: 0.004452
+[2017.03.22-19.46.45:998][401]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Main 0.022
+[2017.03.22-19.46.45:998][401]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.22-19.46.47:601][475]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.22-19.46.47:679][475]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.22-19.46.54:375][817]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Player_BP" FILE="../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Player_BP.uasset" SILENT=true
+[2017.03.22-19.46.54:448][817]LogSavePackage: Save=58.62ms
+[2017.03.22-19.46.54:448][817]LogSavePackage: Moving '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Saved/Player_BP96A9B3CF44A938A9961213999518E145.tmp' to '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Player_BP.uasset'
+[2017.03.22-19.46.54:454][817]LogSavePackage:Display: Finished SavePackage ../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Player_BP.uasset
+[2017.03.22-19.46.56:718][906]LogSavePackage: Save=101.48ms
+[2017.03.22-19.46.56:718][906]LogSavePackage: Moving '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Saved/Main9D746AB944228EDB8C4040AFA04EBA95.tmp' to '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Map/Main.umap'
+[2017.03.22-19.46.56:724][906]LogSavePackage:Display: Finished SavePackage ../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Map/Main.umap
+[2017.03.22-19.46.57:724][949]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.22-19.46.57:741][949]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.22-19.46.57:741][949]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.03.22-19.46.57:741][949]LogPlayLevel: [PlayLevel] Compiling Player_BP before play...
+[2017.03.22-19.46.57:871][949]LogPlayLevel: PlayLevel: Blueprint regeneration took 130 ms (1 blueprints)
+[2017.03.22-19.46.57:871][949]PIE: New page: PIE session: Main (Mar 22, 2017, 7:46:57 AM)
+[2017.03.22-19.46.57:871][949]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2017.03.22-19.46.57:873][949]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001895s)
+[2017.03.22-19.46.57:874][949]LogAIModule: Creating AISystem for world Main
+[2017.03.22-19.46.57:874][949]LogPlayLevel: PIE: World Init took: (0.000527s)
+[2017.03.22-19.46.57:874][949]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.002598s)
+[2017.03.22-19.46.57:894][949]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.22-19.46.57:904][949]LogInit: FAudioDevice initialized.
+[2017.03.22-19.46.57:938][949]LogLoad: Game class is 'GameController_BP_C'
+[2017.03.22-19.46.57:942][949]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2017.03.22-13.46.57
+[2017.03.22-19.46.57:943][949]LogWorld: Bringing up level for play took: 0.003811
+[2017.03.22-19.46.57:945][949]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Main -0.031
+[2017.03.22-19.46.57:945][949]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.22-19.47.16:879][ 59]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.22-19.47.16:922][ 59]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.22-19.54.14:255][897]LogRenderer: Reallocating scene render targets to support 1140x576 NumSamples 1 (Frame:34026).
+[2017.03.22-20.25.00:838][746]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.22-20.25.01:295][746]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.22-20.25.01:295][746]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.22-20.25.01:296][746]PIE: New page: PIE session: Main (Mar 22, 2017, 8:25:01 AM)
+[2017.03.22-20.25.01:296][746]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2017.03.22-20.25.01:298][746]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002321s)
+[2017.03.22-20.25.01:299][746]LogAIModule: Creating AISystem for world Main
+[2017.03.22-20.25.01:299][746]LogPlayLevel: PIE: World Init took: (0.000882s)
+[2017.03.22-20.25.01:299][746]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.003499s)
+[2017.03.22-20.25.01:321][746]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.22-20.25.01:331][746]LogInit: FAudioDevice initialized.
+[2017.03.22-20.25.01:450][746]LogLoad: Game class is 'GameController_BP_C'
+[2017.03.22-20.25.01:454][746]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2017.03.22-14.25.01
+[2017.03.22-20.25.01:456][746]LogWorld: Bringing up level for play took: 0.004248
+[2017.03.22-20.25.01:458][746]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Main 0.414
+[2017.03.22-20.25.01:458][746]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.22-20.25.45:037][858]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.22-20.25.45:081][858]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.22-20.30.57:873][548]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2017.03.22-20.30.59:032][672]LogEditorViewport: Clicking on Actor (context menu): TriggerBox (TriggerBox)
+[2017.03.22-20.31.53:206][576]BlueprintLog: New page: Compile Main
+[2017.03.22-20.31.59:469][261]LogSavePackage: Save=102.85ms
+[2017.03.22-20.31.59:469][261]LogSavePackage: Moving '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Saved/Main4CB7B1B94C66C925CA468688668D710A.tmp' to '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Map/Main.umap'
+[2017.03.22-20.31.59:475][261]LogSavePackage:Display: Finished SavePackage ../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Map/Main.umap
+[2017.03.22-20.33.08:655][650]LogEditorViewport: Clicking on Actor (LMB): Wall_Movement_C (Wall_Movement)
+[2017.03.22-20.33.24:614][493]BlueprintLog: New page: Compile Main
+[2017.03.22-20.33.26:686][706]LogSavePackage: Save=105.15ms
+[2017.03.22-20.33.26:686][706]LogSavePackage: Moving '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Saved/Main9EDD2ABD47E843EAE49EB28A0F874068.tmp' to '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Map/Main.umap'
+[2017.03.22-20.33.26:691][706]LogSavePackage:Display: Finished SavePackage ../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Map/Main.umap
+[2017.03.22-20.33.27:522][794]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.22-20.33.27:538][794]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.22-20.33.27:539][794]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.22-20.33.27:539][794]PIE: New page: PIE session: Main (Mar 22, 2017, 8:33:27 AM)
+[2017.03.22-20.33.27:539][794]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2017.03.22-20.33.27:541][794]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002346s)
+[2017.03.22-20.33.27:542][794]LogAIModule: Creating AISystem for world Main
+[2017.03.22-20.33.27:542][794]LogPlayLevel: PIE: World Init took: (0.000613s)
+[2017.03.22-20.33.27:542][794]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.003148s)
+[2017.03.22-20.33.27:561][794]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.22-20.33.27:572][794]LogInit: FAudioDevice initialized.
+[2017.03.22-20.33.27:606][794]LogLoad: Game class is 'GameController_BP_C'
+[2017.03.22-20.33.27:610][794]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2017.03.22-14.33.27
+[2017.03.22-20.33.27:611][794]LogWorld: Bringing up level for play took: 0.003810
+[2017.03.22-20.33.27:613][794]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Main 0.569
+[2017.03.22-20.33.27:613][794]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.22-20.33.43:699][676]LogBlueprintUserMessages: [Main_C_0] Hello
+[2017.03.22-20.33.44:399][757]LogBlueprintUserMessages: [Enemy4] Hello
+[2017.03.22-20.33.46:649][ 21]LogNet: Browse: /Game/Map/Main
+[2017.03.22-20.33.46:649][ 21]LogLoad: LoadMap: /Game/Map/Main
+[2017.03.22-20.33.46:674][ 21]Cmd: MEM
+[2017.03.22-20.33.46:695][ 21]LogMemory: Platform Memory Stats for Windows
+[2017.03.22-20.33.46:695][ 21]LogMemory: Process Physical Memory: 1779.41 MB used, 2062.31 MB peak
+[2017.03.22-20.33.46:695][ 21]LogMemory: Process Virtual Memory: 2175.94 MB used, 2275.84 MB peak
+[2017.03.22-20.33.46:695][ 21]LogMemory: Physical Memory: 8549.93 MB used,  7697.84 MB free, 16247.77 MB total
+[2017.03.22-20.33.46:695][ 21]LogMemory: Virtual Memory: 2992.79 MB used,  7697.84 MB free, 134217728.00 MB total
+[2017.03.22-20.33.46:695][ 21]LogMemory: 
+[2017.03.22-20.33.46:695][ 21]Allocator Stats for TBB: (not implemented)
+[2017.03.22-20.33.46:695][ 21]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2017.03.22-20.33.46:698][ 21]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002125s)
+[2017.03.22-20.33.46:698][ 21]LogAIModule: Creating AISystem for world Main
+[2017.03.22-20.33.46:698][ 21]LogPlayLevel: PIE: World Init took: (0.000680s)
+[2017.03.22-20.33.46:699][ 21]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.003057s)
+[2017.03.22-20.33.46:699][ 21]LogLoad: Game class is 'GameController_BP_C'
+[2017.03.22-20.33.46:703][ 21]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2017.03.22-14.33.46
+[2017.03.22-20.33.46:704][ 21]LogWorld: Bringing up level for play took: 0.004013
+[2017.03.22-20.33.46:706][ 21]LogLoad: Took 0.056539 seconds to LoadMap(/Game/Map/UEDPIE_0_Main)
+[2017.03.22-20.34.03:993][ 49]LogBlueprintUserMessages: [Main_C_0] Hello
+[2017.03.22-20.34.30:095][966]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.22-20.34.30:144][966]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.22-20.34.31:005][ 39]LogSavePackage: Save=108.53ms
+[2017.03.22-20.34.31:005][ 39]LogSavePackage: Moving '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Saved/Main431B2D0046BD3B1FBF59E392072257DE.tmp' to '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Map/Main.umap'
+[2017.03.22-20.34.31:007][ 39]LogSavePackage:Display: Finished SavePackage ../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Map/Main.umap
+[2017.03.22-20.34.31:917][136]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.22-20.34.31:938][136]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.22-20.34.31:938][136]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.22-20.34.31:938][136]PIE: New page: PIE session: Main (Mar 22, 2017, 8:34:31 AM)
+[2017.03.22-20.34.31:938][136]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2017.03.22-20.34.31:940][136]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002001s)
+[2017.03.22-20.34.31:941][136]LogAIModule: Creating AISystem for world Main
+[2017.03.22-20.34.31:941][136]LogPlayLevel: PIE: World Init took: (0.000531s)
+[2017.03.22-20.34.31:941][136]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.002715s)
+[2017.03.22-20.34.31:962][136]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.22-20.34.31:973][136]LogInit: FAudioDevice initialized.
+[2017.03.22-20.34.32:003][136]LogLoad: Game class is 'GameController_BP_C'
+[2017.03.22-20.34.32:008][136]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2017.03.22-14.34.32
+[2017.03.22-20.34.32:009][136]LogWorld: Bringing up level for play took: 0.003857
+[2017.03.22-20.34.32:011][136]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Main 0.967
+[2017.03.22-20.34.32:011][136]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.22-20.34.46:936][885]LogBlueprintUserMessages: [Main_C_1] Hello
+[2017.03.22-20.34.51:918][468]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.22-20.34.51:959][468]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.22-20.34.54:031][687]LogSavePackage: Save=18.97ms
+[2017.03.22-20.34.54:031][687]LogSavePackage: Moving '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Saved/Wall_MovementDF7D85FA4FFD81735E9E0A8F854FDEC3.tmp' to '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Wall_Movement.uasset'
+[2017.03.22-20.34.54:036][687]LogSavePackage:Display: Finished SavePackage ../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Wall_Movement.uasset
+[2017.03.22-20.35.02:027][615]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.22-20.35.02:043][615]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.22-20.35.02:044][615]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.22-20.35.02:044][615]PIE: New page: PIE session: Main (Mar 22, 2017, 8:35:02 AM)
+[2017.03.22-20.35.02:044][615]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2017.03.22-20.35.02:046][615]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002172s)
+[2017.03.22-20.35.02:046][615]LogAIModule: Creating AISystem for world Main
+[2017.03.22-20.35.02:046][615]LogPlayLevel: PIE: World Init took: (0.000544s)
+[2017.03.22-20.35.02:047][615]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.002909s)
+[2017.03.22-20.35.02:067][615]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.22-20.35.02:076][615]LogInit: FAudioDevice initialized.
+[2017.03.22-20.35.02:106][615]LogLoad: Game class is 'GameController_BP_C'
+[2017.03.22-20.35.02:110][615]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2017.03.22-14.35.02
+[2017.03.22-20.35.02:111][615]LogWorld: Bringing up level for play took: 0.003524
+[2017.03.22-20.35.02:113][615]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Main 1.069
+[2017.03.22-20.35.02:113][615]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.22-20.35.10:322][578]LogBlueprintUserMessages: [Enemy3] Hello
+[2017.03.22-20.35.12:059][780]LogNet: Browse: /Game/Map/Main
+[2017.03.22-20.35.12:059][780]LogLoad: LoadMap: /Game/Map/Main
+[2017.03.22-20.35.12:079][780]Cmd: MEM
+[2017.03.22-20.35.12:096][780]LogMemory: Platform Memory Stats for Windows
+[2017.03.22-20.35.12:096][780]LogMemory: Process Physical Memory: 1788.70 MB used, 2062.31 MB peak
+[2017.03.22-20.35.12:096][780]LogMemory: Process Virtual Memory: 2239.65 MB used, 2291.46 MB peak
+[2017.03.22-20.35.12:096][780]LogMemory: Physical Memory: 8542.45 MB used,  7705.32 MB free, 16247.77 MB total
+[2017.03.22-20.35.12:096][780]LogMemory: Virtual Memory: 3064.79 MB used,  7705.32 MB free, 134217728.00 MB total
+[2017.03.22-20.35.12:096][780]LogMemory: 
+[2017.03.22-20.35.12:096][780]Allocator Stats for TBB: (not implemented)
+[2017.03.22-20.35.12:096][780]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2017.03.22-20.35.12:098][780]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002027s)
+[2017.03.22-20.35.12:098][780]LogAIModule: Creating AISystem for world Main
+[2017.03.22-20.35.12:098][780]LogPlayLevel: PIE: World Init took: (0.000548s)
+[2017.03.22-20.35.12:098][780]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.002757s)
+[2017.03.22-20.35.12:098][780]LogLoad: Game class is 'GameController_BP_C'
+[2017.03.22-20.35.12:102][780]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2017.03.22-14.35.12
+[2017.03.22-20.35.12:103][780]LogWorld: Bringing up level for play took: 0.003608
+[2017.03.22-20.35.12:105][780]LogLoad: Took 0.045621 seconds to LoadMap(/Game/Map/UEDPIE_0_Main)
+[2017.03.22-20.35.19:449][641]LogBlueprintUserMessages: [Enemy3] Hello
+[2017.03.22-20.35.20:424][756]LogNet: Browse: /Game/Map/Main
+[2017.03.22-20.35.20:424][756]LogLoad: LoadMap: /Game/Map/Main
+[2017.03.22-20.35.20:444][756]Cmd: MEM
+[2017.03.22-20.35.20:461][756]LogMemory: Platform Memory Stats for Windows
+[2017.03.22-20.35.20:461][756]LogMemory: Process Physical Memory: 1786.63 MB used, 2062.31 MB peak
+[2017.03.22-20.35.20:461][756]LogMemory: Process Virtual Memory: 2238.19 MB used, 2296.46 MB peak
+[2017.03.22-20.35.20:461][756]LogMemory: Physical Memory: 8541.25 MB used,  7706.51 MB free, 16247.77 MB total
+[2017.03.22-20.35.20:461][756]LogMemory: Virtual Memory: 3076.79 MB used,  7706.51 MB free, 134217728.00 MB total
+[2017.03.22-20.35.20:461][756]LogMemory: 
+[2017.03.22-20.35.20:461][756]Allocator Stats for TBB: (not implemented)
+[2017.03.22-20.35.20:461][756]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2017.03.22-20.35.20:463][756]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002031s)
+[2017.03.22-20.35.20:464][756]LogAIModule: Creating AISystem for world Main
+[2017.03.22-20.35.20:464][756]LogPlayLevel: PIE: World Init took: (0.000528s)
+[2017.03.22-20.35.20:464][756]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.002754s)
+[2017.03.22-20.35.20:464][756]LogLoad: Game class is 'GameController_BP_C'
+[2017.03.22-20.35.20:468][756]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2017.03.22-14.35.20
+[2017.03.22-20.35.20:469][756]LogWorld: Bringing up level for play took: 0.003897
+[2017.03.22-20.35.20:471][756]LogLoad: Took 0.046586 seconds to LoadMap(/Game/Map/UEDPIE_0_Main)
+[2017.03.22-20.35.33:459][279]LogBlueprintUserMessages: [Main_C_1] Hello
+[2017.03.22-20.35.33:459][279]LogBlueprintDebug:Warning: Hit breakpoint on node 'CallFunc_MoveWall', from offset 140
+[2017.03.22-20.35.33:459][279]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Map/Main.Main_C:BndEvt__TriggerBox_1_K2Node_ActorBoundEvent_0_ActorBeginOverlapSignature__DelegateSignature
+	Function /Game/Map/Main.Main_C:ExecuteUbergraph_Main
+
+[2017.03.22-20.35.44:748][279]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.22-20.35.44:794][279]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.22-20.35.57:988][727]LogSavePackage: Save=18.58ms
+[2017.03.22-20.35.57:988][727]LogSavePackage: Moving '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Saved/Wall_Movement149317AF4D653AE309F017BE3BC84627.tmp' to '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Wall_Movement.uasset'
+[2017.03.22-20.35.57:993][727]LogSavePackage:Display: Finished SavePackage ../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Wall_Movement.uasset
+[2017.03.22-20.36.11:363][258]BlueprintLog: New page: Compile Main
+[2017.03.22-20.36.13:443][485]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.22-20.36.13:462][485]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.22-20.36.13:462][485]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.03.22-20.36.13:462][485]LogPlayLevel: [PlayLevel] Compiling Wall_Movement before play...
+[2017.03.22-20.36.13:607][485]LogPlayLevel: PlayLevel: Blueprint regeneration took 145 ms (1 blueprints)
+[2017.03.22-20.36.13:607][485]PIE: New page: PIE session: Main (Mar 22, 2017, 8:36:13 AM)
+[2017.03.22-20.36.13:607][485]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2017.03.22-20.36.13:610][485]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002371s)
+[2017.03.22-20.36.13:610][485]LogAIModule: Creating AISystem for world Main
+[2017.03.22-20.36.13:611][485]LogPlayLevel: PIE: World Init took: (0.000725s)
+[2017.03.22-20.36.13:611][485]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.003286s)
+[2017.03.22-20.36.13:632][485]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.22-20.36.13:642][485]LogInit: FAudioDevice initialized.
+[2017.03.22-20.36.13:672][485]LogLoad: Game class is 'GameController_BP_C'
+[2017.03.22-20.36.13:677][485]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2017.03.22-14.36.13
+[2017.03.22-20.36.13:678][485]LogWorld: Bringing up level for play took: 0.004354
+[2017.03.22-20.36.13:680][485]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Main 0.636
+[2017.03.22-20.36.13:680][485]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.22-20.36.27:804][138]LogBlueprintUserMessages: [Main_C_0] Hello
+[2017.03.22-20.36.27:804][138]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_VariableSet', from offset 425
+[2017.03.22-20.36.27:804][138]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Map/Main.Main_C:BndEvt__TriggerBox_1_K2Node_ActorBoundEvent_0_ActorBeginOverlapSignature__DelegateSignature
+	Function /Game/Map/Main.Main_C:ExecuteUbergraph_Main
+	Function /Game/Blueprint/Wall_Movement.Wall_Movement_C:Move_Wall
+	Function /Game/Blueprint/Wall_Movement.Wall_Movement_C:ExecuteUbergraph_Wall_Movement
+
+[2017.03.22-20.36.34:721][173]LogBlueprintUserMessages: [Enemy4] Hello
+[2017.03.22-20.36.47:764][703]LogNet: Browse: /Game/Map/Main
+[2017.03.22-20.36.47:764][703]LogLoad: LoadMap: /Game/Map/Main
+[2017.03.22-20.36.47:784][703]Cmd: MEM
+[2017.03.22-20.36.47:801][703]LogMemory: Platform Memory Stats for Windows
+[2017.03.22-20.36.47:801][703]LogMemory: Process Physical Memory: 1832.63 MB used, 2062.31 MB peak
+[2017.03.22-20.36.47:801][703]LogMemory: Process Virtual Memory: 2255.76 MB used, 2296.46 MB peak
+[2017.03.22-20.36.47:801][703]LogMemory: Physical Memory: 8603.38 MB used,  7644.38 MB free, 16247.77 MB total
+[2017.03.22-20.36.47:801][703]LogMemory: Virtual Memory: 3076.85 MB used,  7644.38 MB free, 134217728.00 MB total
+[2017.03.22-20.36.47:801][703]LogMemory: 
+[2017.03.22-20.36.47:801][703]Allocator Stats for TBB: (not implemented)
+[2017.03.22-20.36.47:801][703]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2017.03.22-20.36.47:803][703]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002057s)
+[2017.03.22-20.36.47:804][703]LogAIModule: Creating AISystem for world Main
+[2017.03.22-20.36.47:804][703]LogPlayLevel: PIE: World Init took: (0.000541s)
+[2017.03.22-20.36.47:804][703]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.002825s)
+[2017.03.22-20.36.47:804][703]LogLoad: Game class is 'GameController_BP_C'
+[2017.03.22-20.36.47:808][703]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2017.03.22-14.36.47
+[2017.03.22-20.36.47:809][703]LogWorld: Bringing up level for play took: 0.003959
+[2017.03.22-20.36.47:811][703]LogLoad: Took 0.046587 seconds to LoadMap(/Game/Map/UEDPIE_0_Main)
+[2017.03.22-20.36.51:124][ 86]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
