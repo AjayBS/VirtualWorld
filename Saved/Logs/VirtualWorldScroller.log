@@ -3117,3 +3117,522 @@ Script call stack:
 [2017.03.23-15.56.02:205][108]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Main -0.737
 [2017.03.23-15.56.02:206][108]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
 [2017.03.23-15.56.10:956][406]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-15.56.11:047][406]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.00.04:693][468]LogEditorActor: Deleted Actor: Actor
+[2017.03.23-16.00.04:716][468]LogEditorActor: Deleted 1 Actors (2.692 secs)
+[2017.03.23-16.00.24:334][647]LogSavePackage: Save=121.42ms
+[2017.03.23-16.00.24:334][647]LogSavePackage: Moving '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Saved/MainE169C7A0497754D5710646B31560C9FA.tmp' to '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Map/Main.umap'
+[2017.03.23-16.00.24:339][647]LogSavePackage:Display: Finished SavePackage ../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Map/Main.umap
+[2017.03.23-16.01.02:747][ 41]BlueprintLog: New page: Compile Blink_Enemy
+[2017.03.23-16.01.04:157][166]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Blink_Enemy" FILE="../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Blink_Enemy.uasset" SILENT=true
+[2017.03.23-16.01.04:229][166]LogSavePackage: Save=51.22ms
+[2017.03.23-16.01.04:230][166]LogSavePackage: Moving '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Saved/Blink_Enemy94845AEE4F26A7C01749689605DBAD49.tmp' to '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Blink_Enemy.uasset'
+[2017.03.23-16.01.04:235][166]LogSavePackage:Display: Finished SavePackage ../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Blink_Enemy.uasset
+[2017.03.23-16.01.20:595][989]LogSavePackage: Save=120.53ms
+[2017.03.23-16.01.20:595][989]LogSavePackage: Moving '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Saved/Main5FBFC0524F379D68FAAD75BD451FD295.tmp' to '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Map/Main.umap'
+[2017.03.23-16.01.20:600][989]LogSavePackage:Display: Finished SavePackage ../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Map/Main.umap
+[2017.03.23-16.01.34:731][605]BlueprintLog: New page: Compile Blink_Enemy
+[2017.03.23-16.01.35:887][714]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Blink_Enemy" FILE="../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Blink_Enemy.uasset" SILENT=true
+[2017.03.23-16.01.35:957][714]LogSavePackage: Save=52.24ms
+[2017.03.23-16.01.35:957][714]LogSavePackage: Moving '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Saved/Blink_EnemyE2EBC35644D2E0B9AED3B285B1C1AF76.tmp' to '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Blink_Enemy.uasset'
+[2017.03.23-16.01.35:963][714]LogSavePackage:Display: Finished SavePackage ../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Blink_Enemy.uasset
+[2017.03.23-16.01.39:335][ 99]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.23-16.01.39:352][ 99]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.01.39:352][ 99]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.23-16.01.39:353][ 99]PIE: New page: PIE session: Main (Mar 23, 2017, 4:01:39 AM)
+[2017.03.23-16.01.39:353][ 99]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2017.03.23-16.01.39:356][ 99]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003296s)
+[2017.03.23-16.01.39:356][ 99]LogAIModule: Creating AISystem for world Main
+[2017.03.23-16.01.39:357][ 99]LogPlayLevel: PIE: World Init took: (0.000680s)
+[2017.03.23-16.01.39:357][ 99]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.004167s)
+[2017.03.23-16.01.39:379][ 99]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.23-16.01.39:389][ 99]LogInit: FAudioDevice initialized.
+[2017.03.23-16.01.39:424][ 99]LogLoad: Game class is 'GameController_BP_C'
+[2017.03.23-16.01.39:431][ 99]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2017.03.23-10.01.39
+[2017.03.23-16.01.39:434][ 99]LogWorld: Bringing up level for play took: 0.009156
+[2017.03.23-16.01.39:436][ 99]PIE:Warning: Warning Mobility of Blink_Enemy_146 : RenderComponent has to be 'Movable' if you'd like to move. 
+[2017.03.23-16.01.39:436][ 99]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Main 0.5
+[2017.03.23-16.01.39:436][ 99]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.01.45:062][760]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.01.45:124][760]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.02.03:482][756]LogSavePackage: Save=118.41ms
+[2017.03.23-16.02.03:482][756]LogSavePackage: Moving '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Saved/MainC9B4C81C42E1C032F81B8BA0E734067F.tmp' to '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Map/Main.umap'
+[2017.03.23-16.02.03:487][756]LogSavePackage:Display: Finished SavePackage ../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Map/Main.umap
+[2017.03.23-16.02.06:228][ 70]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.23-16.02.06:245][ 70]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.02.06:245][ 70]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.23-16.02.06:246][ 70]PIE: New page: PIE session: Main (Mar 23, 2017, 4:02:06 AM)
+[2017.03.23-16.02.06:246][ 70]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2017.03.23-16.02.06:249][ 70]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003199s)
+[2017.03.23-16.02.06:249][ 70]LogAIModule: Creating AISystem for world Main
+[2017.03.23-16.02.06:249][ 70]LogPlayLevel: PIE: World Init took: (0.000542s)
+[2017.03.23-16.02.06:250][ 70]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.003924s)
+[2017.03.23-16.02.06:274][ 70]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.23-16.02.06:285][ 70]LogInit: FAudioDevice initialized.
+[2017.03.23-16.02.06:319][ 70]LogLoad: Game class is 'GameController_BP_C'
+[2017.03.23-16.02.06:327][ 70]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2017.03.23-10.02.06
+[2017.03.23-16.02.06:330][ 70]LogWorld: Bringing up level for play took: 0.009092
+[2017.03.23-16.02.06:332][ 70]LogBlueprintDebug:Warning: Hit breakpoint on node 'CallFunc_PrintString', from offset 458
+[2017.03.23-16.02.06:332][ 70]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Blueprint/Blink_Enemy.Blink_Enemy_C:ReceiveActorBeginOverlap
+	Function /Game/Blueprint/Blink_Enemy.Blink_Enemy_C:ExecuteUbergraph_Blink_Enemy
+
+[2017.03.23-16.02.10:576][ 70]LogBlueprintUserMessages: [Blink_Enemy_146] true
+[2017.03.23-16.02.10:577][ 70]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Main 3.641
+[2017.03.23-16.02.10:577][ 70]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.02.10:581][ 70]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.02.10:755][ 70]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.02.46:803][225]LogSavePackage: Save=118.70ms
+[2017.03.23-16.02.46:803][225]LogSavePackage: Moving '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Saved/Main74D684CB4944362BD307AE893A0AC7F0.tmp' to '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Map/Main.umap'
+[2017.03.23-16.02.46:808][225]LogSavePackage:Display: Finished SavePackage ../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Map/Main.umap
+[2017.03.23-16.02.51:401][759]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.23-16.02.51:416][759]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.02.51:416][759]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.23-16.02.51:416][759]PIE: New page: PIE session: Main (Mar 23, 2017, 4:02:51 AM)
+[2017.03.23-16.02.51:416][759]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2017.03.23-16.02.51:420][759]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003190s)
+[2017.03.23-16.02.51:420][759]LogAIModule: Creating AISystem for world Main
+[2017.03.23-16.02.51:420][759]LogPlayLevel: PIE: World Init took: (0.000525s)
+[2017.03.23-16.02.51:420][759]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.003893s)
+[2017.03.23-16.02.51:444][759]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.23-16.02.51:453][759]LogInit: FAudioDevice initialized.
+[2017.03.23-16.02.51:484][759]LogLoad: Game class is 'GameController_BP_C'
+[2017.03.23-16.02.51:491][759]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2017.03.23-10.02.51
+[2017.03.23-16.02.51:494][759]LogWorld: Bringing up level for play took: 0.008875
+[2017.03.23-16.02.51:496][759]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Main 0.56
+[2017.03.23-16.02.51:496][759]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.02.53:623][  9]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.02.53:675][  9]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.03.14:802][469]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Blink_Enemy" FILE="../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Blink_Enemy.uasset" SILENT=true
+[2017.03.23-16.03.14:872][469]LogSavePackage: Save=52.48ms
+[2017.03.23-16.03.14:872][469]LogSavePackage: Moving '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Saved/Blink_Enemy648131044654A9CC11C7A4BD5BD3C61B.tmp' to '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Blink_Enemy.uasset'
+[2017.03.23-16.03.14:877][469]LogSavePackage:Display: Finished SavePackage ../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Blink_Enemy.uasset
+[2017.03.23-16.03.44:123][911]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Blink_Enemy" FILE="../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Blink_Enemy.uasset" SILENT=true
+[2017.03.23-16.03.44:193][911]LogSavePackage: Save=51.61ms
+[2017.03.23-16.03.44:193][911]LogSavePackage: Moving '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Saved/Blink_EnemyD851255B4CDF175F98116AB95DFBAC48.tmp' to '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Blink_Enemy.uasset'
+[2017.03.23-16.03.44:199][911]LogSavePackage:Display: Finished SavePackage ../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Blink_Enemy.uasset
+[2017.03.23-16.04.36:609][987]LogSavePackage: Save=130.89ms
+[2017.03.23-16.04.36:609][987]LogSavePackage: Moving '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Saved/Main26EF47AC4BE25D32B8A465B3396F0AB2.tmp' to '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Map/Main.umap'
+[2017.03.23-16.04.36:615][987]LogSavePackage:Display: Finished SavePackage ../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Map/Main.umap
+[2017.03.23-16.05.16:219][611]BlueprintLog: New page: Compile Blink_Enemy
+[2017.03.23-16.05.17:365][726]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Blink_Enemy" FILE="../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Blink_Enemy.uasset" SILENT=true
+[2017.03.23-16.05.17:425][726]LogSavePackage: Save=46.58ms
+[2017.03.23-16.05.17:425][726]LogSavePackage: Moving '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Saved/Blink_Enemy4BD93B014718F1857B936D948895534B.tmp' to '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Blink_Enemy.uasset'
+[2017.03.23-16.05.17:430][726]LogSavePackage:Display: Finished SavePackage ../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Blink_Enemy.uasset
+[2017.03.23-16.05.20:953][134]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.23-16.05.20:968][134]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.05.20:968][134]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.23-16.05.20:968][134]PIE: New page: PIE session: Main (Mar 23, 2017, 4:05:20 AM)
+[2017.03.23-16.05.20:968][134]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2017.03.23-16.05.20:971][134]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003138s)
+[2017.03.23-16.05.20:971][134]LogAIModule: Creating AISystem for world Main
+[2017.03.23-16.05.20:972][134]LogPlayLevel: PIE: World Init took: (0.000514s)
+[2017.03.23-16.05.20:972][134]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.003834s)
+[2017.03.23-16.05.20:996][134]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.23-16.05.21:006][134]LogInit: FAudioDevice initialized.
+[2017.03.23-16.05.21:039][134]LogLoad: Game class is 'GameController_BP_C'
+[2017.03.23-16.05.21:045][134]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2017.03.23-10.05.21
+[2017.03.23-16.05.21:049][134]LogWorld: Bringing up level for play took: 0.008822
+[2017.03.23-16.05.21:050][134]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Main 0.114
+[2017.03.23-16.05.21:051][134]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.05.23:794][457]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.05.23:854][457]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.05.44:190][814]LogSavePackage: Save=118.59ms
+[2017.03.23-16.05.44:190][814]LogSavePackage: Moving '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Saved/MainA278E13544E7D31DD3580DB2B3C603B8.tmp' to '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Map/Main.umap'
+[2017.03.23-16.05.44:195][814]LogSavePackage:Display: Finished SavePackage ../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Map/Main.umap
+[2017.03.23-16.05.45:664][975]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.23-16.05.45:679][975]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.05.45:679][975]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.23-16.05.45:679][975]PIE: New page: PIE session: Main (Mar 23, 2017, 4:05:45 AM)
+[2017.03.23-16.05.45:680][975]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2017.03.23-16.05.45:683][975]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003270s)
+[2017.03.23-16.05.45:683][975]LogAIModule: Creating AISystem for world Main
+[2017.03.23-16.05.45:683][975]LogPlayLevel: PIE: World Init took: (0.000554s)
+[2017.03.23-16.05.45:684][975]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.004019s)
+[2017.03.23-16.05.45:706][975]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.23-16.05.45:715][975]LogInit: FAudioDevice initialized.
+[2017.03.23-16.05.45:747][975]LogLoad: Game class is 'GameController_BP_C'
+[2017.03.23-16.05.45:755][975]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2017.03.23-10.05.45
+[2017.03.23-16.05.45:759][975]LogWorld: Bringing up level for play took: 0.009756
+[2017.03.23-16.05.45:760][975]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Main 0.824
+[2017.03.23-16.05.45:760][975]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.05.47:654][197]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.05.47:714][197]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.06.11:033][920]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.23-16.06.11:048][920]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.06.11:048][920]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.23-16.06.11:048][920]PIE: New page: PIE session: Main (Mar 23, 2017, 4:06:11 AM)
+[2017.03.23-16.06.11:048][920]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2017.03.23-16.06.11:052][920]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003492s)
+[2017.03.23-16.06.11:052][920]LogAIModule: Creating AISystem for world Main
+[2017.03.23-16.06.11:052][920]LogPlayLevel: PIE: World Init took: (0.000519s)
+[2017.03.23-16.06.11:053][920]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.004205s)
+[2017.03.23-16.06.11:075][920]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.23-16.06.11:085][920]LogInit: FAudioDevice initialized.
+[2017.03.23-16.06.11:116][920]LogLoad: Game class is 'GameController_BP_C'
+[2017.03.23-16.06.11:123][920]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2017.03.23-10.06.11
+[2017.03.23-16.06.11:127][920]LogWorld: Bringing up level for play took: 0.009046
+[2017.03.23-16.06.11:128][920]LogBlueprintDebug:Warning: Hit breakpoint on node 'CallFunc_K2_SetTimer', from offset 969
+[2017.03.23-16.06.11:128][920]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Blueprint/Blink_Enemy.Blink_Enemy_C:ReceiveBeginPlay
+	Function /Game/Blueprint/Blink_Enemy.Blink_Enemy_C:ExecuteUbergraph_Blink_Enemy
+
+[2017.03.23-16.06.16:564][920]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Main 5.628
+[2017.03.23-16.06.16:564][920]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.06.16:567][920]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.06.16:629][920]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.08.07:469][814]BlueprintLog: New page: Compile Blink_Enemy
+[2017.03.23-16.08.08:743][944]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Blink_Enemy" FILE="../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Blink_Enemy.uasset" SILENT=true
+[2017.03.23-16.08.08:808][944]LogSavePackage: Save=49.30ms
+[2017.03.23-16.08.08:808][944]LogSavePackage: Moving '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Saved/Blink_Enemy42107ADC41807F1C5AF776987ACE8BD7.tmp' to '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Blink_Enemy.uasset'
+[2017.03.23-16.08.08:814][944]LogSavePackage:Display: Finished SavePackage ../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Blink_Enemy.uasset
+[2017.03.23-16.08.12:336][353]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.23-16.08.12:351][353]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.08.12:352][353]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.23-16.08.12:352][353]PIE: New page: PIE session: Main (Mar 23, 2017, 4:08:12 AM)
+[2017.03.23-16.08.12:352][353]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2017.03.23-16.08.12:355][353]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003238s)
+[2017.03.23-16.08.12:355][353]LogAIModule: Creating AISystem for world Main
+[2017.03.23-16.08.12:356][353]LogPlayLevel: PIE: World Init took: (0.000675s)
+[2017.03.23-16.08.12:356][353]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.004195s)
+[2017.03.23-16.08.12:379][353]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.23-16.08.12:389][353]LogInit: FAudioDevice initialized.
+[2017.03.23-16.08.12:424][353]LogLoad: Game class is 'GameController_BP_C'
+[2017.03.23-16.08.12:431][353]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2017.03.23-10.08.12
+[2017.03.23-16.08.12:434][353]LogWorld: Bringing up level for play took: 0.008806
+[2017.03.23-16.08.12:436][353]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Main -0.5
+[2017.03.23-16.08.12:436][353]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.08.14:434][585]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.08.14:493][585]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.08.32:595][694]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Blink_Enemy" FILE="../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Blink_Enemy.uasset" SILENT=true
+[2017.03.23-16.08.32:658][694]LogSavePackage: Save=48.91ms
+[2017.03.23-16.08.32:658][694]LogSavePackage: Moving '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Saved/Blink_EnemyE3905BFC4AB78CD8BBB97EBCB498F4E5.tmp' to '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Blink_Enemy.uasset'
+[2017.03.23-16.08.32:663][694]LogSavePackage:Display: Finished SavePackage ../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Blink_Enemy.uasset
+[2017.03.23-16.08.34:684][929]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.23-16.08.34:700][929]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.08.34:700][929]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.23-16.08.34:700][929]PIE: New page: PIE session: Main (Mar 23, 2017, 4:08:34 AM)
+[2017.03.23-16.08.34:700][929]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2017.03.23-16.08.34:703][929]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003356s)
+[2017.03.23-16.08.34:704][929]LogAIModule: Creating AISystem for world Main
+[2017.03.23-16.08.34:704][929]LogPlayLevel: PIE: World Init took: (0.000715s)
+[2017.03.23-16.08.34:704][929]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.004317s)
+[2017.03.23-16.08.34:726][929]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.23-16.08.34:736][929]LogInit: FAudioDevice initialized.
+[2017.03.23-16.08.34:766][929]LogLoad: Game class is 'GameController_BP_C'
+[2017.03.23-16.08.34:773][929]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2017.03.23-10.08.34
+[2017.03.23-16.08.34:777][929]LogWorld: Bringing up level for play took: 0.009005
+[2017.03.23-16.08.34:779][929]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Main -0.157
+[2017.03.23-16.08.34:779][929]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.08.36:691][151]LogBlueprintDebug:Warning: Hit breakpoint on node 'CallFunc_K2_SetActorLocation', from offset 449
+[2017.03.23-16.08.36:691][151]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Blueprint/Blink_Enemy.Blink_Enemy_C:Disappear_sprite
+	Function /Game/Blueprint/Blink_Enemy.Blink_Enemy_C:ExecuteUbergraph_Blink_Enemy
+
+[2017.03.23-16.08.41:434][341]LogBlueprintDebug:Warning: Hit breakpoint on node 'CallFunc_K2_SetActorLocation', from offset 449
+[2017.03.23-16.08.41:434][341]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Blueprint/Blink_Enemy.Blink_Enemy_C:Disappear_sprite
+	Function /Game/Blueprint/Blink_Enemy.Blink_Enemy_C:ExecuteUbergraph_Blink_Enemy
+
+[2017.03.23-16.08.45:563][551]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.08.45:624][551]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.08.54:083][500]LogSavePackage: Save=127.89ms
+[2017.03.23-16.08.54:083][500]LogSavePackage: Moving '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Saved/MainF17206084DADCD336DED1682744625CB.tmp' to '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Map/Main.umap'
+[2017.03.23-16.08.54:088][500]LogSavePackage:Display: Finished SavePackage ../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Map/Main.umap
+[2017.03.23-16.08.55:611][669]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.23-16.08.55:626][669]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.08.55:626][669]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.23-16.08.55:626][669]PIE: New page: PIE session: Main (Mar 23, 2017, 4:08:55 AM)
+[2017.03.23-16.08.55:626][669]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2017.03.23-16.08.55:629][669]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003136s)
+[2017.03.23-16.08.55:630][669]LogAIModule: Creating AISystem for world Main
+[2017.03.23-16.08.55:630][669]LogPlayLevel: PIE: World Init took: (0.000535s)
+[2017.03.23-16.08.55:630][669]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.003857s)
+[2017.03.23-16.08.55:653][669]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.23-16.08.55:662][669]LogInit: FAudioDevice initialized.
+[2017.03.23-16.08.55:695][669]LogLoad: Game class is 'GameController_BP_C'
+[2017.03.23-16.08.55:701][669]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2017.03.23-10.08.55
+[2017.03.23-16.08.55:705][669]LogWorld: Bringing up level for play took: 0.008657
+[2017.03.23-16.08.55:706][669]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Main 0.77
+[2017.03.23-16.08.55:707][669]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.09.00:470][228]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.09.00:526][228]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.12.52:604][151]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Blink_Enemy" FILE="../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Blink_Enemy.uasset" SILENT=true
+[2017.03.23-16.12.52:670][151]LogSavePackage: Save=51.72ms
+[2017.03.23-16.12.52:670][151]LogSavePackage: Moving '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Saved/Blink_Enemy610D32DE4925902F574B5FACBA4E4B11.tmp' to '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Blink_Enemy.uasset'
+[2017.03.23-16.12.52:675][151]LogSavePackage:Display: Finished SavePackage ../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Blink_Enemy.uasset
+[2017.03.23-16.13.26:235][552]BlueprintLog: New page: Compile Blink_Enemy
+[2017.03.23-16.13.27:559][663]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Blink_Enemy" FILE="../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Blink_Enemy.uasset" SILENT=true
+[2017.03.23-16.13.27:628][663]LogSavePackage: Save=52.69ms
+[2017.03.23-16.13.27:628][663]LogSavePackage: Moving '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Saved/Blink_EnemyB07506564C4EECF86A3D5E856EDE7F76.tmp' to '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Blink_Enemy.uasset'
+[2017.03.23-16.13.27:633][663]LogSavePackage:Display: Finished SavePackage ../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Blink_Enemy.uasset
+[2017.03.23-16.13.30:326][960]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.23-16.13.30:341][960]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.13.30:341][960]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.23-16.13.30:341][960]PIE: New page: PIE session: Main (Mar 23, 2017, 4:13:30 AM)
+[2017.03.23-16.13.30:341][960]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2017.03.23-16.13.30:344][960]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003157s)
+[2017.03.23-16.13.30:345][960]LogAIModule: Creating AISystem for world Main
+[2017.03.23-16.13.30:345][960]LogPlayLevel: PIE: World Init took: (0.000564s)
+[2017.03.23-16.13.30:345][960]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.003908s)
+[2017.03.23-16.13.30:370][960]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.23-16.13.30:379][960]LogInit: FAudioDevice initialized.
+[2017.03.23-16.13.30:408][960]LogLoad: Game class is 'GameController_BP_C'
+[2017.03.23-16.13.30:416][960]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2017.03.23-10.13.30
+[2017.03.23-16.13.30:421][960]LogWorld: Bringing up level for play took: 0.011442
+[2017.03.23-16.13.30:422][960]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Main -0.514
+[2017.03.23-16.13.30:423][960]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.13.46:505][847]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.13.46:566][847]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.15.19:698][826]Cmd: TRANSACTION UNDO
+[2017.03.23-16.15.19:698][826]LogEditorTransaction: Undo Tile Painting
+[2017.03.23-16.15.20:130][870]Cmd: TRANSACTION UNDO
+[2017.03.23-16.15.20:130][870]LogEditorTransaction: Undo Tile Painting
+[2017.03.23-16.15.20:470][909]Cmd: TRANSACTION UNDO
+[2017.03.23-16.15.20:470][909]LogEditorTransaction: Undo Tile Painting
+[2017.03.23-16.16.41:233][399]LogSavePackage: Save=951.32ms
+[2017.03.23-16.16.41:233][399]LogSavePackage: Moving '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Saved/SpriteSheet_TileMap29FDD363B4DE2F308AC951AB924BC7B9A.tmp' to '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Art/TileSet/SpriteSheet_TileMap2.uasset'
+[2017.03.23-16.16.41:239][399]LogSavePackage:Display: Finished SavePackage ../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Art/TileSet/SpriteSheet_TileMap2.uasset
+[2017.03.23-16.16.46:075][966]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2017.03.23-16.16.49:594][377]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.03.23-16.16.52:032][657]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.23-16.16.52:047][657]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.16.52:047][657]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.23-16.16.52:047][657]PIE: New page: PIE session: Main (Mar 23, 2017, 4:16:52 AM)
+[2017.03.23-16.16.52:048][657]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2017.03.23-16.16.52:051][657]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003439s)
+[2017.03.23-16.16.52:052][657]LogAIModule: Creating AISystem for world Main
+[2017.03.23-16.16.52:052][657]LogPlayLevel: PIE: World Init took: (0.000741s)
+[2017.03.23-16.16.52:052][657]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.004390s)
+[2017.03.23-16.16.52:089][657]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.23-16.16.52:101][657]LogInit: FAudioDevice initialized.
+[2017.03.23-16.16.52:136][657]LogLoad: Game class is 'GameController_BP_C'
+[2017.03.23-16.16.52:143][657]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2017.03.23-10.16.52
+[2017.03.23-16.16.52:148][657]LogWorld: Bringing up level for play took: 0.010386
+[2017.03.23-16.16.52:149][657]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Main -0.787
+[2017.03.23-16.16.52:149][657]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.17.26:391][679]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.17.26:441][679]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.17.48:957][347]Cmd: TRANSACTION UNDO
+[2017.03.23-16.17.48:957][347]LogEditorTransaction: Undo Tile Painting
+[2017.03.23-16.17.49:251][380]Cmd: TRANSACTION UNDO
+[2017.03.23-16.17.49:251][380]LogEditorTransaction: Undo Tile Painting
+[2017.03.23-16.17.49:585][416]Cmd: TRANSACTION UNDO
+[2017.03.23-16.17.49:585][416]LogEditorTransaction: Undo Tile Painting
+[2017.03.23-16.17.49:967][461]Cmd: TRANSACTION UNDO
+[2017.03.23-16.17.49:967][461]LogEditorTransaction: Undo Tile Painting
+[2017.03.23-16.18.06:599][437]Cmd: TRANSACTION UNDO
+[2017.03.23-16.18.06:599][437]LogEditorTransaction: Undo Tile Painting
+[2017.03.23-16.18.06:840][462]Cmd: TRANSACTION UNDO
+[2017.03.23-16.18.06:840][462]LogEditorTransaction: Undo Tile Painting
+[2017.03.23-16.18.07:165][499]Cmd: TRANSACTION UNDO
+[2017.03.23-16.18.07:166][499]LogEditorTransaction: Undo Tile Painting
+[2017.03.23-16.18.07:389][525]Cmd: TRANSACTION UNDO
+[2017.03.23-16.18.07:389][525]LogEditorTransaction: Undo Tile Painting
+[2017.03.23-16.18.07:931][588]Cmd: TRANSACTION UNDO
+[2017.03.23-16.18.07:931][588]LogEditorTransaction: Undo Tile Painting
+[2017.03.23-16.18.18:594][843]Cmd: TRANSACTION UNDO
+[2017.03.23-16.18.18:594][843]LogEditorTransaction: Undo Tile Painting
+[2017.03.23-16.18.18:975][884]Cmd: TRANSACTION UNDO
+[2017.03.23-16.18.18:975][884]LogEditorTransaction: Undo Tile Painting
+[2017.03.23-16.18.19:171][906]Cmd: TRANSACTION UNDO
+[2017.03.23-16.18.19:171][906]LogEditorTransaction: Undo Tile Painting
+[2017.03.23-16.18.19:352][927]Cmd: TRANSACTION UNDO
+[2017.03.23-16.18.19:352][927]LogEditorTransaction: Undo Tile Painting
+[2017.03.23-16.18.19:534][948]Cmd: TRANSACTION UNDO
+[2017.03.23-16.18.19:534][948]LogEditorTransaction: Undo Tile Painting
+[2017.03.23-16.18.19:715][969]Cmd: TRANSACTION UNDO
+[2017.03.23-16.18.19:715][969]LogEditorTransaction: Undo Tile Painting
+[2017.03.23-16.18.20:104][ 12]Cmd: TRANSACTION UNDO
+[2017.03.23-16.18.20:104][ 12]LogEditorTransaction: Undo Tile Painting
+[2017.03.23-16.18.29:667][146]Cmd: TRANSACTION UNDO
+[2017.03.23-16.18.29:667][146]LogEditorTransaction: Undo Tile Painting
+[2017.03.23-16.18.29:873][169]Cmd: TRANSACTION UNDO
+[2017.03.23-16.18.29:873][169]LogEditorTransaction: Undo Tile Painting
+[2017.03.23-16.18.30:067][187]Cmd: TRANSACTION UNDO
+[2017.03.23-16.18.30:067][187]LogEditorTransaction: Undo Tile Painting
+[2017.03.23-16.18.30:471][234]Cmd: TRANSACTION UNDO
+[2017.03.23-16.18.30:471][234]LogEditorTransaction: Undo Tile Painting
+[2017.03.23-16.18.34:877][747]Cmd: TRANSACTION UNDO
+[2017.03.23-16.18.34:877][747]LogEditorTransaction: Undo Tile Painting
+[2017.03.23-16.18.36:040][881]Cmd: TRANSACTION UNDO
+[2017.03.23-16.18.36:040][881]LogEditorTransaction: Undo Tile Painting
+[2017.03.23-16.18.42:902][574]LogSavePackage: Save=858.40ms
+[2017.03.23-16.18.42:902][574]LogSavePackage: Moving '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Saved/SpriteSheet_TileMap2573CD3FB49345B66852BFFB3097DA392.tmp' to '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Art/TileSet/SpriteSheet_TileMap2.uasset'
+[2017.03.23-16.18.42:907][574]LogSavePackage:Display: Finished SavePackage ../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Art/TileSet/SpriteSheet_TileMap2.uasset
+[2017.03.23-16.19.15:351][451]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.23-16.19.15:365][451]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.19.15:366][451]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.23-16.19.15:366][451]PIE: New page: PIE session: Main (Mar 23, 2017, 4:19:15 AM)
+[2017.03.23-16.19.15:366][451]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2017.03.23-16.19.15:369][451]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003137s)
+[2017.03.23-16.19.15:369][451]LogAIModule: Creating AISystem for world Main
+[2017.03.23-16.19.15:369][451]LogPlayLevel: PIE: World Init took: (0.000519s)
+[2017.03.23-16.19.15:370][451]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.003842s)
+[2017.03.23-16.19.15:394][451]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.23-16.19.15:403][451]LogInit: FAudioDevice initialized.
+[2017.03.23-16.19.15:437][451]LogLoad: Game class is 'GameController_BP_C'
+[2017.03.23-16.19.15:446][451]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2017.03.23-10.19.15
+[2017.03.23-16.19.15:449][451]LogWorld: Bringing up level for play took: 0.009483
+[2017.03.23-16.19.15:450][451]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Main 0.514
+[2017.03.23-16.19.15:451][451]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.19.59:456][623]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.19.59:508][623]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.21.12:375][134]Cmd: DUPLICATE
+[2017.03.23-16.21.12:375][134]Cmd: ACTOR DUPLICATE
+[2017.03.23-16.21.27:747][924]Cmd: DUPLICATE
+[2017.03.23-16.21.27:747][924]Cmd: ACTOR DUPLICATE
+[2017.03.23-16.21.39:789][330]Cmd: DUPLICATE
+[2017.03.23-16.21.39:789][330]Cmd: ACTOR DUPLICATE
+[2017.03.23-16.21.53:386][918]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (SpriteSheet_TileMap2)
+[2017.03.23-16.21.55:771][169]LogSavePackage: Save=124.58ms
+[2017.03.23-16.21.55:771][169]LogSavePackage: Moving '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Saved/MainC62388D14D387666A09472A2A7DCC7BA.tmp' to '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Map/Main.umap'
+[2017.03.23-16.21.55:776][169]LogSavePackage:Display: Finished SavePackage ../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Map/Main.umap
+[2017.03.23-16.21.58:124][438]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.23-16.21.58:139][438]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.21.58:139][438]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.23-16.21.58:139][438]PIE: New page: PIE session: Main (Mar 23, 2017, 4:21:58 AM)
+[2017.03.23-16.21.58:140][438]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2017.03.23-16.21.58:143][438]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003474s)
+[2017.03.23-16.21.58:143][438]LogAIModule: Creating AISystem for world Main
+[2017.03.23-16.21.58:144][438]LogPlayLevel: PIE: World Init took: (0.000518s)
+[2017.03.23-16.21.58:144][438]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.004183s)
+[2017.03.23-16.21.58:172][438]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.23-16.21.58:181][438]LogInit: FAudioDevice initialized.
+[2017.03.23-16.21.58:214][438]LogLoad: Game class is 'GameController_BP_C'
+[2017.03.23-16.21.58:220][438]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2017.03.23-10.21.58
+[2017.03.23-16.21.58:224][438]LogWorld: Bringing up level for play took: 0.007963
+[2017.03.23-16.21.58:225][438]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Main -0.711
+[2017.03.23-16.21.58:225][438]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.22.00:128][661]LogBlueprintUserMessages: [Blink_Enemy2] true
+[2017.03.23-16.22.00:129][661]LogBlueprintUserMessages: [Blink_Enemy_146] true
+[2017.03.23-16.22.00:129][661]LogBlueprintUserMessages: [Blink_Enemy3] true
+[2017.03.23-16.22.00:130][661]LogBlueprintUserMessages: [Blink_Enemy_146] true
+[2017.03.23-16.22.00:130][661]LogBlueprintUserMessages: [Blink_Enemy3] true
+[2017.03.23-16.22.00:131][661]LogBlueprintUserMessages: [Blink_Enemy2] true
+[2017.03.23-16.22.00:131][661]LogBlueprintUserMessages: [Blink_Enemy4] true
+[2017.03.23-16.22.00:131][661]LogBlueprintUserMessages: [Blink_Enemy_146] true
+[2017.03.23-16.22.00:132][661]LogBlueprintUserMessages: [Blink_Enemy4] true
+[2017.03.23-16.22.00:132][661]LogBlueprintUserMessages: [Blink_Enemy3] true
+[2017.03.23-16.22.00:132][661]LogBlueprintUserMessages: [Blink_Enemy4] true
+[2017.03.23-16.22.00:133][661]LogBlueprintUserMessages: [Blink_Enemy2] true
+[2017.03.23-16.22.02:133][896]LogBlueprintUserMessages: [Blink_Enemy2] true
+[2017.03.23-16.22.02:134][896]LogBlueprintUserMessages: [Blink_Enemy_146] true
+[2017.03.23-16.22.03:682][ 76]LogNet: Browse: /Game/Map/Main
+[2017.03.23-16.22.03:682][ 76]LogLoad: LoadMap: /Game/Map/Main
+[2017.03.23-16.22.03:708][ 76]Cmd: MEM
+[2017.03.23-16.22.03:726][ 76]LogMemory: Platform Memory Stats for Windows
+[2017.03.23-16.22.03:726][ 76]LogMemory: Process Physical Memory: 2973.73 MB used, 3221.27 MB peak
+[2017.03.23-16.22.03:726][ 76]LogMemory: Process Virtual Memory: 3704.45 MB used, 3707.39 MB peak
+[2017.03.23-16.22.03:726][ 76]LogMemory: Physical Memory: 10203.62 MB used,  6044.14 MB free, 16247.77 MB total
+[2017.03.23-16.22.03:726][ 76]LogMemory: Virtual Memory: 4512.03 MB used,  6044.14 MB free, 134217728.00 MB total
+[2017.03.23-16.22.03:726][ 76]LogMemory: 
+[2017.03.23-16.22.03:726][ 76]Allocator Stats for TBB: (not implemented)
+[2017.03.23-16.22.03:726][ 76]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2017.03.23-16.22.03:730][ 76]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003774s)
+[2017.03.23-16.22.03:730][ 76]LogAIModule: Creating AISystem for world Main
+[2017.03.23-16.22.03:730][ 76]LogPlayLevel: PIE: World Init took: (0.000580s)
+[2017.03.23-16.22.03:731][ 76]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.004572s)
+[2017.03.23-16.22.03:731][ 76]LogLoad: Game class is 'GameController_BP_C'
+[2017.03.23-16.22.03:737][ 76]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2017.03.23-10.22.03
+[2017.03.23-16.22.03:740][ 76]LogWorld: Bringing up level for play took: 0.008082
+[2017.03.23-16.22.03:742][ 76]LogLoad: Took 0.059658 seconds to LoadMap(/Game/Map/UEDPIE_0_Main)
+[2017.03.23-16.22.05:685][304]LogBlueprintUserMessages: [Blink_Enemy2] true
+[2017.03.23-16.22.05:686][304]LogBlueprintUserMessages: [Blink_Enemy_146] true
+[2017.03.23-16.22.05:686][304]LogBlueprintUserMessages: [Blink_Enemy4] true
+[2017.03.23-16.22.05:687][304]LogBlueprintUserMessages: [Blink_Enemy_146] true
+[2017.03.23-16.22.05:688][304]LogBlueprintUserMessages: [Blink_Enemy4] true
+[2017.03.23-16.22.05:688][304]LogBlueprintUserMessages: [Blink_Enemy2] true
+[2017.03.23-16.22.05:688][304]LogBlueprintUserMessages: [Blink_Enemy3] true
+[2017.03.23-16.22.05:688][304]LogBlueprintUserMessages: [Blink_Enemy_146] true
+[2017.03.23-16.22.05:689][304]LogBlueprintUserMessages: [Blink_Enemy3] true
+[2017.03.23-16.22.05:689][304]LogBlueprintUserMessages: [Blink_Enemy4] true
+[2017.03.23-16.22.05:690][304]LogBlueprintUserMessages: [Blink_Enemy3] true
+[2017.03.23-16.22.05:690][304]LogBlueprintUserMessages: [Blink_Enemy2] true
+[2017.03.23-16.22.07:701][541]LogBlueprintUserMessages: [Blink_Enemy2] true
+[2017.03.23-16.22.07:702][541]LogBlueprintUserMessages: [Blink_Enemy_146] true
+[2017.03.23-16.22.09:715][777]LogBlueprintUserMessages: [Blink_Enemy_146] true
+[2017.03.23-16.22.09:716][777]LogBlueprintUserMessages: [Blink_Enemy2] true
+[2017.03.23-16.22.09:716][777]LogBlueprintUserMessages: [Blink_Enemy4] true
+[2017.03.23-16.22.09:717][777]LogBlueprintUserMessages: [Blink_Enemy_146] true
+[2017.03.23-16.22.09:717][777]LogBlueprintUserMessages: [Blink_Enemy4] true
+[2017.03.23-16.22.09:718][777]LogBlueprintUserMessages: [Blink_Enemy2] true
+[2017.03.23-16.22.09:718][777]LogBlueprintUserMessages: [Blink_Enemy3] true
+[2017.03.23-16.22.09:718][777]LogBlueprintUserMessages: [Blink_Enemy_146] true
+[2017.03.23-16.22.09:719][777]LogBlueprintUserMessages: [Blink_Enemy3] true
+[2017.03.23-16.22.09:719][777]LogBlueprintUserMessages: [Blink_Enemy4] true
+[2017.03.23-16.22.09:719][777]LogBlueprintUserMessages: [Blink_Enemy3] true
+[2017.03.23-16.22.09:720][777]LogBlueprintUserMessages: [Blink_Enemy2] true
+[2017.03.23-16.22.10:590][875]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.22.10:654][875]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.23.44:625][549]BlueprintLog: New page: Compile Blink_Enemy
+[2017.03.23-16.23.45:631][645]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Blink_Enemy" FILE="../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Blink_Enemy.uasset" SILENT=true
+[2017.03.23-16.23.45:700][645]LogSavePackage: Save=52.50ms
+[2017.03.23-16.23.45:700][645]LogSavePackage: Moving '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Saved/Blink_Enemy1364B4694CCDAA5E7B5A6ABD76E3BC3D.tmp' to '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Blink_Enemy.uasset'
+[2017.03.23-16.23.45:706][645]LogSavePackage:Display: Finished SavePackage ../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Blink_Enemy.uasset
+[2017.03.23-16.23.48:735][997]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.23-16.23.48:768][997]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.23.48:768][997]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.03.23-16.23.48:768][997]LogPlayLevel: [PlayLevel] Compiling PROTO_BP_Blueprint_0 before play...
+[2017.03.23-16.23.48:868][997]LogPlayLevel: PlayLevel: Blueprint regeneration took 99 ms (1 blueprints)
+[2017.03.23-16.23.48:868][997]PIE: New page: PIE session: Main (Mar 23, 2017, 4:23:48 AM)
+[2017.03.23-16.23.48:868][997]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2017.03.23-16.23.48:871][997]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003482s)
+[2017.03.23-16.23.48:872][997]LogAIModule: Creating AISystem for world Main
+[2017.03.23-16.23.48:872][997]LogPlayLevel: PIE: World Init took: (0.000671s)
+[2017.03.23-16.23.48:872][997]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.004338s)
+[2017.03.23-16.23.48:900][997]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.23-16.23.48:909][997]LogInit: FAudioDevice initialized.
+[2017.03.23-16.23.48:941][997]LogLoad: Game class is 'GameController_BP_C'
+[2017.03.23-16.23.48:948][997]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2017.03.23-10.23.48
+[2017.03.23-16.23.48:951][997]LogWorld: Bringing up level for play took: 0.009189
+[2017.03.23-16.23.48:953][997]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Main 0.017
+[2017.03.23-16.23.48:953][997]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.24.07:501][176]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.24.07:569][176]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.24.23:217][985]BlueprintLog: New page: Compile Blink_Enemy
+[2017.03.23-16.24.24:385][101]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Blink_Enemy" FILE="../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Blink_Enemy.uasset" SILENT=true
+[2017.03.23-16.24.24:456][101]LogSavePackage: Save=52.92ms
+[2017.03.23-16.24.24:456][101]LogSavePackage: Moving '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Saved/Blink_Enemy60391C654871B25FBAA0FCB0B8811053.tmp' to '../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Blink_Enemy.uasset'
+[2017.03.23-16.24.24:461][101]LogSavePackage:Display: Finished SavePackage ../../../../../../Work/EAE/2nd Sem/Virtual Worlds/New folder/VirtualWorld/VirtualWorld/Content/Blueprint/Blink_Enemy.uasset
+[2017.03.23-16.24.28:013][513]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.23-16.24.28:029][513]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.24.28:029][513]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.23-16.24.28:029][513]PIE: New page: PIE session: Main (Mar 23, 2017, 4:24:28 AM)
+[2017.03.23-16.24.28:030][513]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2017.03.23-16.24.28:033][513]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003437s)
+[2017.03.23-16.24.28:033][513]LogAIModule: Creating AISystem for world Main
+[2017.03.23-16.24.28:034][513]LogPlayLevel: PIE: World Init took: (0.000511s)
+[2017.03.23-16.24.28:034][513]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.004128s)
+[2017.03.23-16.24.28:058][513]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.23-16.24.28:067][513]LogInit: FAudioDevice initialized.
+[2017.03.23-16.24.28:098][513]LogLoad: Game class is 'GameController_BP_C'
+[2017.03.23-16.24.28:105][513]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2017.03.23-10.24.28
+[2017.03.23-16.24.28:109][513]LogWorld: Bringing up level for play took: 0.008953
+[2017.03.23-16.24.28:110][513]PIE: Info Play in editor start time for /Game/Map/UEDPIE_0_Main -0.826
+[2017.03.23-16.24.28:110][513]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
+[2017.03.23-16.24.32:018][972]LogBlueprintUserMessages: [Blink_Enemy4] true
+[2017.03.23-16.24.38:427][725]LogNet: Browse: /Game/Map/Main
+[2017.03.23-16.24.38:427][725]LogLoad: LoadMap: /Game/Map/Main
+[2017.03.23-16.24.38:448][725]Cmd: MEM
+[2017.03.23-16.24.38:467][725]LogMemory: Platform Memory Stats for Windows
+[2017.03.23-16.24.38:467][725]LogMemory: Process Physical Memory: 2889.58 MB used, 3221.27 MB peak
+[2017.03.23-16.24.38:467][725]LogMemory: Process Virtual Memory: 3719.82 MB used, 3757.97 MB peak
+[2017.03.23-16.24.38:467][725]LogMemory: Physical Memory: 10109.50 MB used,  6138.27 MB free, 16247.77 MB total
+[2017.03.23-16.24.38:467][725]LogMemory: Virtual Memory: 4531.34 MB used,  6138.27 MB free, 134217728.00 MB total
+[2017.03.23-16.24.38:467][725]LogMemory: 
+[2017.03.23-16.24.38:467][725]Allocator Stats for TBB: (not implemented)
+[2017.03.23-16.24.38:467][725]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Main
+[2017.03.23-16.24.38:470][725]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003431s)
+[2017.03.23-16.24.38:471][725]LogAIModule: Creating AISystem for world Main
+[2017.03.23-16.24.38:471][725]LogPlayLevel: PIE: World Init took: (0.000525s)
+[2017.03.23-16.24.38:471][725]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Main.Main to /Game/Map/UEDPIE_0_Main.Main (0.004149s)
+[2017.03.23-16.24.38:471][725]LogLoad: Game class is 'GameController_BP_C'
+[2017.03.23-16.24.38:477][725]LogWorld: Bringing World /Game/Map/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2017.03.23-10.24.38
+[2017.03.23-16.24.38:481][725]LogWorld: Bringing up level for play took: 0.008703
+[2017.03.23-16.24.38:482][725]LogLoad: Took 0.055680 seconds to LoadMap(/Game/Map/UEDPIE_0_Main)
+[2017.03.23-16.24.57:770][992]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Map/Main.Main_C' with ClassGeneratedBy '/Game/Map/Main.Main:PersistentLevel.Main'
